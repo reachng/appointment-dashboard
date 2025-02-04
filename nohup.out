@@ -1,0 +1,1817 @@
+Dash is running on http://70.36.107.109:8050/
+
+ * Serving Flask app 'app'
+ * Debug mode: on
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+49.249.205.58 - - [24/Jan/2025 09:46:49] code 400, message Bad request version ('³gµtì¦~º')
+49.249.205.58 - - [24/Jan/2025 09:46:50] code 400, message Bad request version ('$f\\P¿O\x8eu\x96wçh¿ó`åÄ')
+49.249.205.58 - - [24/Jan/2025 09:46:50] code 400, message Bad request version ('\x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s**\x00\x00Di\x00\x05\x00\x03\x02h2\x00+\x00\x07\x06ºº\x03\x04\x03\x03\x00\x05\x00\x05\x01\x00\x00\x00\x00ÿ\x01\x00\x01\x00\x00')
+49.249.205.58 - - [24/Jan/2025 09:46:50] code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:785: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:791: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:818: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:785: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:791: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:818: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:1043: UserWarning:
+
+Converting to PeriodArray/Index representation will drop timezone information.
+
+/home/webapp/zip_codes/zip/management/commands/app.py:1090: UserWarning:
+
+Converting to PeriodArray/Index representation will drop timezone information.
+
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:785: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:791: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:818: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:1043: UserWarning:
+
+Converting to PeriodArray/Index representation will drop timezone information.
+
+/home/webapp/zip_codes/zip/management/commands/app.py:1090: UserWarning:
+
+Converting to PeriodArray/Index representation will drop timezone information.
+
+/home/webapp/zip_codes/zip/management/commands/app.py:785: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:791: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:818: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+118736329.26
+162060     86.02
+165158     86.02
+715470    302.03
+161969    133.34
+700888    225.00
+Name: total_final, dtype: float64
+118736329.26
+118736329.26
+162060     86.02
+165158     86.02
+715470    302.03
+161969    133.34
+700888    225.00
+Name: total_final, dtype: float64
+118736329.26
+118736329.26
+162060     86.02
+165158     86.02
+715470    302.03
+161969    133.34
+700888    225.00
+Name: total_final, dtype: float64
+118736329.26
+118736329.26
+162060     86.02
+165158     86.02
+715470    302.03
+161969    133.34
+700888    225.00
+Name: total_final, dtype: float64
+118736329.26
+/home/webapp/zip_codes/zip/management/commands/app.py:785: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+118736329.26
+162060     86.02
+165158     86.02
+715470    302.03
+161969    133.34
+700888    225.00
+Name: total_final, dtype: float64
+/home/webapp/zip_codes/zip/management/commands/app.py:791: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+118736329.26
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:818: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+118736329.26
+162060     86.02
+165158     86.02
+715470    302.03
+161969    133.34
+700888    225.00
+Name: total_final, dtype: float64
+118736329.26
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+45.33.91.187 - - [24/Jan/2025 17:01:21] code 400, message Bad request syntax ('JRMI\x00\x02K')
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+71.183.79.85 - - [24/Jan/2025 21:49:21] code 400, message Bad request version ('ôOÒ6Q({\x95è')
+71.183.79.85 - - [24/Jan/2025 21:49:22] code 400, message Bad request version ('ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S')
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+118736329.26
+162060     86.02
+165158     86.02
+715470    302.03
+161969    133.34
+700888    225.00
+Name: total_final, dtype: float64
+118736329.26
+118736329.26
+162060     86.02
+165158     86.02
+715470    302.03
+161969    133.34
+700888    225.00
+Name: total_final, dtype: float64
+118736329.26
+118736329.26
+162060     86.02
+165158     86.02
+715470    302.03
+161969    133.34
+700888    225.00
+Name: total_final, dtype: float64
+118736329.26
+118736329.26
+162060     86.02
+165158     86.02
+715470    302.03
+161969    133.34
+700888    225.00
+Name: total_final, dtype: float64
+118736329.26
+117627936.88999999
+162060     86.02
+165158     86.02
+715470    302.03
+161969    133.34
+700888    225.00
+Name: total_final, dtype: float64
+117627936.88999999
+118736329.26
+162060     86.02
+165158     86.02
+715470    302.03
+161969    133.34
+700888    225.00
+Name: total_final, dtype: float64
+118736329.26
+118736329.26
+162060     86.02
+165158     86.02
+715470    302.03
+161969    133.34
+700888    225.00
+Name: total_final, dtype: float64
+118736329.26
+/home/webapp/zip_codes/zip/management/commands/app.py:1043: UserWarning:
+
+Converting to PeriodArray/Index representation will drop timezone information.
+
+/home/webapp/zip_codes/zip/management/commands/app.py:1090: UserWarning:
+
+Converting to PeriodArray/Index representation will drop timezone information.
+
+/home/webapp/zip_codes/zip/management/commands/app.py:1073: UserWarning:
+
+Converting to PeriodArray/Index representation will drop timezone information.
+
+/home/webapp/zip_codes/zip/management/commands/app.py:1090: UserWarning:
+
+Converting to PeriodArray/Index representation will drop timezone information.
+
+/home/webapp/zip_codes/zip/management/commands/app.py:1090: UserWarning:
+
+Converting to PeriodArray/Index representation will drop timezone information.
+
+/home/webapp/zip_codes/zip/management/commands/app.py:785: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:791: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:818: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:785: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:791: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:818: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+118736329.26
+162060     86.02
+165158     86.02
+715470    302.03
+161969    133.34
+700888    225.00
+Name: total_final, dtype: float64
+118736329.26
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:785: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:791: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:818: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:785: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:791: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:818: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+118736329.26
+162060     86.02
+165158     86.02
+715470    302.03
+161969    133.34
+700888    225.00
+Name: total_final, dtype: float64
+118736329.26
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+118736329.26
+162060     86.02
+165158     86.02
+715470    302.03
+161969    133.34
+700888    225.00
+Name: total_final, dtype: float64
+118736329.26
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:1060: UserWarning:
+
+Converting to PeriodArray/Index representation will drop timezone information.
+
+/home/webapp/zip_codes/zip/management/commands/app.py:1107: UserWarning:
+
+Converting to PeriodArray/Index representation will drop timezone information.
+
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:802: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:808: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:835: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:802: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:808: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:835: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:802: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:808: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:835: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:802: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:808: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:835: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+118736329.26
+162060     86.02
+165158     86.02
+715470    302.03
+161969    133.34
+700888    225.00
+Name: total_final, dtype: float64
+118736329.26
+118736329.26
+162060     86.02
+165158     86.02
+715470    302.03
+161969    133.34
+700888    225.00
+Name: total_final, dtype: float64
+118736329.26
+118736329.26
+162060     86.02
+165158     86.02
+715470    302.03
+161969    133.34
+700888    225.00
+Name: total_final, dtype: float64
+118736329.26
+/home/webapp/zip_codes/zip/management/commands/app.py:844: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:844: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:844: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:1088: UserWarning:
+
+Converting to PeriodArray/Index representation will drop timezone information.
+
+/home/webapp/zip_codes/zip/management/commands/app.py:1135: UserWarning:
+
+Converting to PeriodArray/Index representation will drop timezone information.
+
+/home/webapp/zip_codes/zip/management/commands/app.py:1118: UserWarning:
+
+Converting to PeriodArray/Index representation will drop timezone information.
+
+/home/webapp/zip_codes/zip/management/commands/app.py:1135: UserWarning:
+
+Converting to PeriodArray/Index representation will drop timezone information.
+
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+118736329.26
+162060     86.02
+165158     86.02
+715470    302.03
+161969    133.34
+700888    225.00
+Name: total_final, dtype: float64
+118736329.26
+118736329.26
+162060     86.02
+165158     86.02
+715470    302.03
+161969    133.34
+700888    225.00
+Name: total_final, dtype: float64
+118736329.26
+118736329.26
+162060     86.02
+165158     86.02
+715470    302.03
+161969    133.34
+700888    225.00
+Name: total_final, dtype: float64
+118736329.26
+118736329.26
+162060     86.02
+165158     86.02
+715470    302.03
+161969    133.34
+700888    225.00
+Name: total_final, dtype: float64
+118736329.26
+118736329.26
+162060     86.02
+165158     86.02
+715470    302.03
+161969    133.34
+700888    225.00
+Name: total_final, dtype: float64
+118736329.26
+118736329.26
+162060     86.02
+165158     86.02
+715470    302.03
+161969    133.34
+700888    225.00
+Name: total_final, dtype: float64
+118736329.26
+118736329.26
+162060     86.02
+165158     86.02
+715470    302.03
+161969    133.34
+700888    225.00
+Name: total_final, dtype: float64
+118736329.26
+118736329.26
+162060     86.02
+165158     86.02
+715470    302.03
+161969    133.34
+700888    225.00
+Name: total_final, dtype: float64
+118736329.26
+118736329.26
+162060     86.02
+165158     86.02
+715470    302.03
+161969    133.34
+700888    225.00
+Name: total_final, dtype: float64
+118736329.26
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+45.58.127.147 - - [25/Jan/2025 12:32:05] code 400, message Bad request version ("ê|\x05bqöÿÄ£ÙÂ`\x89l\x00V\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00\x9f\x00\x9eÌªÀ¯À\xadÀ®À¬À$À(À#À'À")
+45.58.127.147 - - [25/Jan/2025 12:42:08] code 400, message Bad request version ("æ\x03\x8føºØ[pó¸ùâ\x94ï\x83sþjDçö\x1b²fØ¿=5½ú7ü\x00V\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00\x9f\x00\x9eÌªÀ¯À\xadÀ®À¬À$À(À#À'À")
+45.58.127.147 - - [25/Jan/2025 13:02:04] code 400, message Bad request version ("o\x8eE\x0e¡\x91Zß\x18@©\x13ÍýÍ4XòÍÉp¤Ìõ¯\x17@Ëù¥{:\x00V\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00\x9f\x00\x9eÌªÀ¯À\xadÀ®À¬À$À(À#À'À")
+98.6.254.142 - - [25/Jan/2025 20:54:05] code 400, message Bad request version ('+\x0f\x97¹Æ¿\x99[\x9dr\x82»9!1,\x99\x95%ì%ÕK\x00"ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+109.205.243.94 - - [25/Jan/2025 21:03:33] code 400, message Bad request syntax ('\x16\x03\x01\x012\x01\x00\x01.\x03\x03\x95®\x16üÛ\xadÒâý?¹\x03e\x14D\x8d')
+104.156.155.35 - - [26/Jan/2025 16:53:42] code 400, message Bad request syntax ('JRMI\x00\x02K')
+104.156.155.35 - - [26/Jan/2025 16:53:42] code 400, message Bad request version ('RTSP/1.0')
+104.156.155.35 - - [26/Jan/2025 16:53:47] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+104.156.155.35 - - [26/Jan/2025 16:53:52] code 400, message Bad HTTP/0.9 request type ('\x00')
+104.156.155.35 - - [26/Jan/2025 16:53:52] code 400, message Bad request syntax ('HELP')
+104.156.155.35 - - [26/Jan/2025 16:53:52] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+104.156.155.35 - - [26/Jan/2025 16:53:52] code 400, message Bad request version ('\x00/\x00')
+104.156.155.35 - - [26/Jan/2025 16:53:52] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+104.156.155.35 - - [26/Jan/2025 16:53:57] code 400, message Bad request version ('0.12\x00')
+104.156.155.35 - - [26/Jan/2025 16:54:02] code 400, message Bad HTTP/0.9 request type ('l\x00')
+104.156.155.35 - - [26/Jan/2025 16:54:03] code 400, message Bad request version ('SIP/2.0')
+104.156.155.35 - - [26/Jan/2025 16:54:08] code 400, message Bad HTTP/0.9 request type ('AMQP\x00\x00')
+104.156.155.35 - - [26/Jan/2025 16:54:13] code 400, message Bad request version ('\x00/\x00')
+104.156.155.35 - - [26/Jan/2025 16:54:23] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03P0')
+104.156.155.35 - - [26/Jan/2025 16:54:46] code 400, message Bad request syntax ('\x0e\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbbb0100000001')
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+118736329.26
+162060     86.02
+165158     86.02
+715470    302.03
+161969    133.34
+700888    225.00
+Name: total_final, dtype: float64
+118736329.26
+118736329.26
+162060     86.02
+165158     86.02
+715470    302.03
+161969    133.34
+700888    225.00
+Name: total_final, dtype: float64
+118736329.26
+118736329.26
+162060     86.02
+165158     86.02
+715470    302.03
+161969    133.34
+700888    225.00
+Name: total_final, dtype: float64
+118736329.26
+/home/webapp/zip_codes/zip/management/commands/app.py:360: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:402: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app.py:481: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+Traceback (most recent call last):
+  File "/home/webapp/zip_codes/zip/management/commands/app2.py", line 9, in <module>
+    appointment = pd.read_csv(
+                  ^^^^^^^^^^^^
+  File "/home/webapp/myenv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/webapp/myenv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/webapp/myenv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/webapp/myenv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/home/webapp/myenv/lib/python3.11/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'appointment_list.csv'
+Traceback (most recent call last):
+  File "/home/webapp/zip_codes/zip/management/commands/app2.py", line 36, in <module>
+    user = pd.read_csv(
+           ^^^^^^^^^^^^
+  File "/home/webapp/myenv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/webapp/myenv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/webapp/myenv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/webapp/myenv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/home/webapp/myenv/lib/python3.11/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'user.csv'
+Dash is running on http://70.36.107.109:8050/
+
+ * Serving Flask app 'app2'
+ * Debug mode: on
+/home/webapp/zip_codes/zip/management/commands/app2.py:322: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app2.py:364: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app2.py:443: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+118488006.22999999
+5832      270.00
+162060     86.02
+165154     86.02
+715418    302.03
+161969    133.34
+Name: total_final, dtype: float64
+118488006.22999999
+/home/webapp/zip_codes/zip/management/commands/app2.py:806: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app2.py:934: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app2.py:322: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app2.py:364: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app2.py:443: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app2.py:322: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app2.py:364: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app2.py:443: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app2.py:322: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app2.py:364: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app2.py:443: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app2.py:322: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app2.py:364: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app2.py:443: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app2.py:322: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app2.py:364: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app2.py:443: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app2.py:322: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app2.py:364: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app2.py:443: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app2.py:322: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app2.py:364: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app2.py:443: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app2.py:322: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app2.py:364: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+/home/webapp/zip_codes/zip/management/commands/app2.py:443: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+118488006.22999999
+5832      270.00
+162060     86.02
+165154     86.02
+715418    302.03
+161969    133.34
+Name: total_final, dtype: float64
+118488006.22999999
+118488006.22999999
+5832      270.00
+162060     86.02
+165154     86.02
+715418    302.03
+161969    133.34
+Name: total_final, dtype: float64
+118488006.22999999
+118488006.22999999
+5832      270.00
+162060     86.02
+165154     86.02
+715418    302.03
+161969    133.34
+Name: total_final, dtype: float64
+118488006.22999999
+118488006.22999999
+5832      270.00
+162060     86.02
+165154     86.02
+715418    302.03
+161969    133.34
+Name: total_final, dtype: float64
+118488006.22999999
+118488006.22999999
+5832      270.00
+162060     86.02
+165154     86.02
+715418    302.03
+161969    133.34
+Name: total_final, dtype: float64
+118488006.22999999
+111031257.47999999
+5832      270.00
+715418    302.03
+700836    225.00
+727998    216.00
+752955    224.54
+Name: total_final, dtype: float64
+111031257.47999999
+118488006.22999999
+5832      270.00
+162060     86.02
+165154     86.02
+715418    302.03
+161969    133.34
+Name: total_final, dtype: float64
+118488006.22999999
+118488006.22999999
+5832      270.00
+162060     86.02
+165154     86.02
+715418    302.03
+161969    133.34
+Name: total_final, dtype: float64
+118488006.22999999
+  File "/home/webapp/zip_codes/zip/management/commands/app2.py", line 816
+    columns=[{"name": col, "id": col} for col in g_id_complaints.colum
+            ^
+SyntaxError: '[' was never closed
+Dash is running on http://70.36.107.109:8050/
+
+ * Serving Flask app 'app2'
+ * Debug mode: on
+141.98.11.112 - - [27/Jan/2025 11:59:08] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+/home/webapp/zip_codes/zip/management/commands/app2.py:806: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+47.237.79.10 - - [27/Jan/2025 13:35:21] code 400, message Bad request version ('À\x13À')
+/home/webapp/zip_codes/zip/management/commands/app2.py:806: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+

@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <title>Appointment Analysis</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+        .date-picker {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .chart {
+            margin-top: 30px;
+        }
+    </style>
+
+
+    <div class="container">
+        <h1>Appointment Analysis</h1>
+        
+        <!-- Date Picker Form -->
+        <div class="date-picker">
+            <form method="get">
+                <label for="start_date"><strong>Start Date:</strong></label>
+                <input type="date" id="start_date" name="start_date" value="{{ start_date }}">
+                &nbsp;
+                <label for="end_date"><strong>End Date:</strong></label>
+                <input type="date" id="end_date" name="end_date" value="{{ end_date }}">
+                &nbsp;
+                <button type="submit">Filter</button>
+            </form>
+        </div>
+
+        <!-- Histogram Chart -->
+        <div class="chart">
+            <h2>Days to Appointment Distribution</h2>
+            {{ histogram_html|safe }}
+        </div>
+
+        <!-- Line Chart -->
+        <div class="chart">
+            <h2>Appointment Trends Over Time</h2>
+            {{ line_chart_html|safe }}
+        </div>
+    </div>
+{% endblock %}

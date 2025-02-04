@@ -1,0 +1,214 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        h1 {
+            font-size: 2.5rem;
+            text-align: center;
+            color: #007bff;
+            margin-top: 20px;
+        }
+
+        h2, h3 {
+            color: #444;
+        }
+
+        .dashboard-summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+            padding: 0 20px;
+        }
+    
+        .summary-card {
+            background-color: #fff;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+    
+        .summary-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+        }
+    
+        .summary-card h2 {
+            font-size: 1.8rem;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+    
+        .summary-card p {
+            font-size: 1.4rem;
+            color: #444;
+            margin: 0;
+        }
+    
+        /* Optional: Adding some color accents */
+        .summary-card:nth-child(1) {
+            background-color: #e0f7fa;
+        }
+    
+        .summary-card:nth-child(2) {
+            background-color: #f1f8e9;
+        }
+    
+        .summary-card:nth-child(3) {
+            background-color: #fff3e0;
+        }
+    
+        .summary-card:nth-child(4) {
+            background-color: #e8f5e9;
+        }
+
+        .charts-container {
+            display:flex;
+            flex-direction:column;
+            gap:20px;
+            margin-bottom: 50px;
+        }
+
+        .chart {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .chart h3 {
+            color: #007bff;
+            margin-bottom: 15px;
+        }
+
+        #map {
+            height: 500px;
+            width: 100%;
+            margin-bottom: 50px;
+            border-radius: 10px;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #007bff;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .chart-container {
+            background-color: #fafafa;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .card {
+            background-color: #ffffff;
+            padding: 10px 20px;
+            margin: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            font-size: 1.2rem;
+        }
+    </style>
+
+    <h1>Appointment Dashboard</h1>
+    
+    <div class="dashboard-summary">
+        <div class="summary-card">
+            <h2>Total Appointments</h2>
+            <p>{{ total_appointments }}</p>
+        </div>
+        <div class="summary-card">
+            <h2>Total Users</h2>
+            <p>{{ total_users }}</p>
+        </div>
+        <div class="summary-card">
+            <h2>Total Revenue</h2>
+            <p>${{ total_revenue }}</p>
+        </div>
+        <div class="summary-card">
+            <h2>Avg Days to Appointment</h2>
+            <p>{{ avg_days_to_appointment }}</p>
+        </div>
+    </div>
+
+    <div class="charts-container">
+        <div class="chart">
+            <h3>Appointment Summary by Status</h3>
+            <div id="appointment_summary_chart"></div>
+        </div>
+        <div class="chart">
+            <h3>State-wise Revenue</h3>
+            <div id="state_revenue_chart"></div>
+        </div>
+        <div class="chart">
+            <h3>Complaints by G_ID</h3>
+            <div id="complaints_chart"></div>
+        </div>
+        <div class="chart">
+            <h3>Heatmap</h3>
+            <div id="heatmap"></div>
+        </div>
+    </div>
+
+    <h3>Location Distribution Map</h3>
+    <div id="map"></div>
+
+    <script>
+        var appointment_summary_chart = {{ appointment_summary_chart|safe }};
+        Plotly.newPlot('appointment_summary_chart', appointment_summary_chart.data, appointment_summary_chart.layout);
+
+        var state_revenue_chart = {{ state_revenue_chart|safe }};
+        Plotly.newPlot('state_revenue_chart', state_revenue_chart.data, state_revenue_chart.layout);
+
+        var complaints_chart = {{ complaints_chart|safe }};
+        Plotly.newPlot('complaints_chart', complaints_chart.data, complaints_chart.layout);
+
+        var heatmap = {{ heatmap|safe }};
+        Plotly.newPlot('heatmap', heatmap.data, heatmap.layout);
+
+        // Initialize map
+        var map = L.map('map').setView([37.0902, -95.7129], 4);
+
+        // Add tile layer with HTML entity for copyright symbol
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+
+        try {
+            // Parse markers with error handling
+            var markers = JSON.parse('{{ markers|escapejs }}');
+            
+            // Add markers to map
+            markers.forEach(function(marker) {
+                var popupContent = [
+                    '<div style="padding: 10px;">',
+                    '<h4 style="margin: 0 0 10px 0;">Location Details</h4>',
+                    '<p><strong>ZIP:</strong> ' + marker.zip + '</p>',
+                    '<p><strong>State:</strong> ' + marker.state + '</p>',
+                    '<p><strong>User Count:</strong> ' + marker.user_count + '</p>',
+                    '<p><strong>User IDs:</strong> ' + marker.user_ids.join(', ') + '</p>',
+                    '</div>'
+                ].join('');
+                
+                L.marker([marker.latitude, marker.longitude])
+                    .bindPopup(popupContent)
+                    .addTo(map);
+            });
+        } catch (e) {
+            console.error('Error loading markers:', e);
+        }
+    </script>
+{% endblock %}

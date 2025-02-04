@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Dashboard</title>
+    <!-- Link to your CSS file -->
+    <style>
+        /* General reset and layout */
+        body {
+            font-family: Arial, sans-serif;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Sidebar Styling */
+        .sidebar {
+            width: 250px;
+            height: 100vh;
+            position: fixed;
+            left: 0;
+            top: 0;
+            background-color: #2c3e50;
+            padding-top: 20px;
+            color: white;
+        }
+
+        .sidebar a {
+            display: block;
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            border-bottom: 1px solid #34495e;
+        }
+
+        .sidebar a:hover {
+            background-color: #34495e;
+            color: #ecf0f1;
+        }
+
+        /* Main Content Area */
+        .main-content {
+            margin-left: 250px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2 style="color: white; text-align: center;">Dashboard</h2>
+        <a href="{% url 'home' %}">Home</a>
+        <a href="{% url 'user_status_analysis' %}">User Status Analysis</a>
+        <a href="{% url 'total_final_summmary' %}">Total Final Summary</a>
+        <a href="{% url 'appointment_analysis' %}">Appointment Analysis</a>
+        <a href="{% url 'registration_analysis' %}">Registration Analysis</a>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="main-content">
+        <!-- Page Specific Content -->
+        {% block content %}
+        <!-- Content from specific pages will be injected here -->
+        {% endblock %}
+    </div>
+</body>
+</html>

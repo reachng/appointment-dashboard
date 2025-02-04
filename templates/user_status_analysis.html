@@ -1,0 +1,119 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <title>User Status Analysis</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <div style="text-align: center;">
+        <h1>User Status Analysis</h1>
+    </div>
+
+    <!-- Filters -->
+    <div style="margin: 20px;">
+        <label for="state">Filter by State:</label>
+        <select id="state">
+            <option value="">All States</option>
+            {% for state in states %}
+            <option value="{{ state }}">{{ state }}</option>
+            {% endfor %}
+        </select>
+
+        <label for="user-status">Filter by User Status:</label>
+        <select id="user-status">
+            <option value="All">All</option>
+            <option value="Potential">Potential</option>
+            <option value="Inactive (6 Months)">Inactive (6 Months)</option>
+            <option value="Lost">Lost</option>
+            <option value="Recurring">Recurring</option>
+        </select>
+
+        <button id="export-btn">Export User Data</button>
+    </div>
+
+    <!-- Chart -->
+    <div style="width: 80%; margin: auto;">
+        <canvas id="userStatusChart"></canvas>
+    </div>
+
+<script>
+// Initialize Chart.js
+const ctx = document.getElementById('userStatusChart').getContext('2d');
+let userStatusChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: [],
+        datasets: [{
+            label: 'User Count',
+            data: [],
+            backgroundColor: 'rgba(54, 162, 235, 0.5)',
+            borderColor: 'rgba(54, 162, 235, 1)',
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
+});
+
+// Function to update chart data
+function updateChart() {
+    const state = document.getElementById('state').value;
+    const userStatus = document.getElementById('user-status').value;
+
+    fetch('', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'X-CSRFToken': '{{ csrf_token }}'  // Ensure CSRF token is sent
+        },
+        body: JSON.stringify({ 
+            state: state, 
+            user_status: userStatus 
+        })  // Send the selected filters as JSON
+    })
+    .then(response => response.json())
+    .then(data => {
+        const labels = data.chartData.map(item => item.status);
+        const counts = data.chartData.map(item => item.count);
+
+        // Update the chart with the new data
+        userStatusChart.data.labels = labels;
+        userStatusChart.data.datasets[0].data = counts;
+        userStatusChart.update();
+    })
+    .catch(error => console.error('Error:', error));
+}
+
+// Listen for changes to the filters and update chart data
+document.getElementById('state').addEventListener('change', updateChart);
+document.getElementById('user-status').addEventListener('change', updateChart);
+
+// Initial chart load
+updateChart();  // Trigger the initial chart update on page load
+</script>
+<script>
+// Add event listener for export button
+document.getElementById('export-btn').addEventListener('click', () => {
+    const state = document.getElementById('state').value;
+    const userStatus = document.getElementById('user-status').value;
+
+    let url = '/user_status_analysis/?export=true';
+
+    if (state) {
+        url += `&state=${state}`;
+    }
+    if (userStatus !== 'All') {
+        url += `&user_status=${userStatus}`;
+    }
+
+    // Redirect to the export URL to trigger the download
+    window.location.href = url;
+});
+</script>
+
+
+{% endblock %}

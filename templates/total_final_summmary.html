@@ -1,0 +1,111 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <title>Total Final Summary</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+        }
+        .export-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            margin: 10px 0;
+            border: none;
+            cursor: pointer;
+        }
+        .export-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+
+    <h1 style="text-align:center;">Total Final Summary</h1>
+
+    <!-- Date Range -->
+    <h3>Select Date Range:</h3>
+    <form method="GET" action="{% url 'total_final_summmary' %}">
+        <label for="start_date">Start Date:</label>
+        <input type="date" name="start_date" value="{{ start_date }}">
+        <label for="end_date">End Date:</label>
+        <input type="date" name="end_date" value="{{ end_date }}">
+        <button type="submit">Apply Filters</button>
+    </form>
+
+    <!-- G_ID Summary Table -->
+    <h4 style="text-align:center;">G_ID Summary</h4>
+    <button class="export-btn" onclick="window.location.href='{% url 'export_g_id_summary' %}?start_date={{ start_date }}&end_date={{ end_date }}'">Export G_ID Summary</button>
+    <table>
+        <thead>
+            <tr>
+                <th>G_ID</th>
+                <th>State</th>
+                <th>Revenue</th>
+                <th>Appointment Count</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in g_id_summary %}
+                <tr>
+                    <td>{{ row.g_id }}</td>
+                    <td>{{ row.state }}</td>
+                    <td>{{ row.Revenue }}</td>
+                    <td>{{ row.Appointment_Count }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <!-- G_ID Complaints Table -->
+    <h4 style="text-align:center;">G_ID Complaints</h4>
+    <button class="export-btn" onclick="window.location.href='{% url 'export_g_id_complaints' %}?start_date={{ start_date }}&end_date={{ end_date }}'">Export G_ID Complaints</button>
+    <table>
+        <thead>
+            <tr>
+                <th>G_ID</th>
+                <th>State</th>
+                <th>Complaints</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in g_id_complaints %}
+                <tr>
+                    <td>{{ row.g_id }}</td>
+                    <td>{{ row.state }}</td>
+                    <td>{{ row.Complaints }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <!-- User State Count Table -->
+    <h4 style="text-align:center;">User State Count</h4>
+    <button class="export-btn" onclick="window.location.href='{% url 'export_user_state_count' %}?start_date={{ start_date }}&end_date={{ end_date }}'">Export User State Count</button>
+    <table>
+        <thead>
+            <tr>
+                <th>State</th>
+                <th>User Count</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in user_state_count %}
+                <tr>
+                    <td>{{ row.State }}</td>
+                    <td>{{ row.User_Count }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+{% endblock %}

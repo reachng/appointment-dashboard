@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <title>Registration & Appointment Analysis</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+        .dropdown {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .chart {
+            margin-top: 30px;
+        }
+        .metrics {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 18px;
+            color: #555;
+        }
+    </style>
+
+    <div class="container">
+        <h1>Registration & Consecutive Appointment Analysis</h1>
+        
+        <!-- Dropdown for Quarter Selection -->
+        <div class="dropdown">
+            <form method="get">
+                <label for="quarter"><strong>Select Registration Quarter:</strong></label>
+                <select id="quarter" name="quarter">
+                    <option value="">All Quarters</option>
+                    {% for quarter in quarters %}
+                        <option value="{{ quarter }}" {% if quarter == selected_quarter %}selected{% endif %}>
+                            {{ quarter }}
+                        </option>
+                    {% endfor %}
+                </select>
+                <button type="submit">Filter</button>
+            </form>
+        </div>
+
+        <!-- Histogram Chart -->
+        <div class="chart">
+            <h2>Distribution of Days Between Registration and Appointment</h2>
+            {{ histogram_html|safe }}
+        </div>
+
+        <!-- Average Days Line Chart -->
+        <div class="chart">
+            <h2>Average Days to Appointment Over Time</h2>
+            {{ avg_days_html|safe }}
+        </div>
+
+        <!-- Consecutive Appointment Gaps -->
+        <div class="chart">
+            <h2>Average Days Between Consecutive Appointments</h2>
+            {{ gap_html|safe }}
+        </div>
+
+        <!-- Metrics -->
+        <div class="metrics">
+            <strong>Average Gap:</strong> {{ metrics.avg_gap }} days | 
+            <strong>Total Appointments:</strong> {{ metrics.total_appointments }} | 
+            <strong>Total Customers:</strong> {{ metrics.total_customers }}
+        </div>
+    </div>
+{% endblock %}
