@@ -1,0 +1,725 @@
+g_id,sex,available_in_my_area,zip,city,first_user_fee,cat,g_exp,g_target,g_edu,g_edu_dog_grooming,g_edu_cat_grooming,g_edu_breed_standards,g_edu_interested,g_exp_years,g_per_month,cdate,mdate,service_area,application_id,background_check_status,bather_exp,mobile_van,allow_both_appt,allow_appt,g_type,g_ing_in_home,g_ing_trial,availity
+69,,,11207,Brooklyn ,0,N,Y,,N,,,,Y,2,50,13-04-2018 19:12,05-02-2020 16:32,11207,,A,,N,N,N,O,,,
+68,,,11101,Long Island city,0,N,Y,,Y,,,,Y,2,50,03-04-2018 09:44,05-02-2020 16:10," long island city ,Queens, Manhattan, Brooklyn.",,A,,N,N,N,O,,,
+97,M,,11205,Brooklyn,0,N,Y,D,Y,Y,N,,,6,0,12-11-2018 15:59,21-03-2024 14:27," Manhattan, Brooklyn,queens, westchester Bronx and",,A,N,N,N,N,O,,,
+484,,,85354,Tonopah,0,N,Y,B,N,N,N,,,2,,20-03-2023 11:15,12-05-2024 14:31,Arizona,,P,N,Y,N,N,G,M,Y,wd
+278,F,,30087,stone mountain,0,N,Y,D,N,N,N,,,2,,04-10-2021 16:33,20-01-2025 16:58,Atlanta,,A,N,N,N,N,O,,,
+313,M,,30294,Ellenwood,0,Y,Y,B,Y,Y,N,,,10,,02-02-2022 17:02,18-05-2024 18:55,"Atlanta, GA",,A,N,N,N,N,O,H,,
+161,F,,78245,San Antonio ,0,N,Y,D,Y,Y,N,,,6,0,06-02-2020 14:03,14-12-2022 09:34,Austin,,A,N,N,N,N,O,H,Y,
+385,F,,85326,Buckeye,0,Y,Y,B,N,N,N,,,10,,29-08-2022 16:58,28-11-2022 20:58,AZ,,A,N,N,N,N,O,M,N,daily
+405,,,85326,"Buckeye, AZ 85326",0,N,Y,B,N,N,N,,,0,,21-09-2022 14:02,03-12-2024 12:32,AZ,,P,N,Y,N,N,G,M,Y,daily
+410,F,,85257,Scottsdale,0,N,Y,B,Y,N,N,,,2,,30-09-2022 14:43,09-01-2025 18:54,AZ,,A,N,N,N,N,O,B,Y,daily
+411,F,,85295,Gilbert,0,N,Y,B,Y,N,N,,,1,,04-10-2022 13:39,08-03-2023 18:08,AZ,,A,N,N,N,N,O,H,Y,we
+473,F,,85020,Phoenix,0,N,Y,B,Y,N,N,,,2,,14-02-2023 14:12,11-01-2025 19:20,AZ,,A,N,N,N,N,O,H,Y,daily
+487,F,,85354,Tonopah,0,N,Y,B,Y,N,N,,,2,,21-03-2023 11:58,03-05-2024 10:57,AZ,,A,N,N,N,N,O,M,Y,daily
+507,M,,85205,Mesa,0,N,Y,B,N,N,N,,,10,,14-04-2023 16:43,01-06-2023 13:01,AZ,,A,N,N,N,N,O,H,Y,daily
+508,F,,85051,Phoenix,0,N,Y,B,Y,N,N,,,10,,17-04-2023 09:39,08-05-2023 02:56,AZ,,A,N,N,N,N,O,M,Y,wd
+602,F,,85007,Phoenix,0,N,Y,B,Y,N,N,,,2,,25-10-2023 09:37,25-10-2023 12:48,AZ,,A,N,N,N,N,O,M,Y,daily
+613,F,,85304,Glendale,0,Y,Y,B,N,N,N,,,6,,12-12-2023 13:10,16-08-2024 13:05,AZ,,A,N,N,N,N,O,M,Y,daily
+618,F,,85345,Peoria,0,N,Y,B,N,N,N,,,2,,14-12-2023 13:37,29-07-2024 10:16,AZ,,A,N,N,N,N,O,B,Y,wd
+622,F,,85051,Phoenix,0,Y,Y,B,Y,N,N,,,6,,19-12-2023 11:03,24-01-2025 10:24,AZ,,A,N,N,N,N,O,M,Y,daily
+642,F,,85307,Glendale,0,Y,Y,B,N,N,N,,,2,,05-01-2024 11:51,26-01-2024 14:23,AZ,,A,N,N,N,N,O,B,Y,wd
+669,F,,85043,Phoenix,0,N,Y,B,Y,N,N,,,2,,12-04-2024 10:31,18-04-2024 12:49,AZ,,A,N,N,N,N,O,M,Y,wd
+682,M,,85335,El mirage,0,N,Y,B,N,N,N,,,2,,02-05-2024 16:47,24-01-2025 12:10,AZ,,A,N,N,N,N,O,M,Y,wd
+686,F,,85710,Tucson,0,N,Y,B,Y,N,N,,,2,,08-05-2024 10:32,06-09-2024 15:59,AZ,,A,N,N,N,N,O,M,Y,daily
+695,F,,85210,Mesa,0,Y,N,B,N,N,N,,,2,,17-05-2024 13:02,24-01-2025 11:43,AZ,,A,Y,N,N,N,O,B,Y,daily
+719,F,,85363,Youngtown,0,N,Y,B,N,N,N,,,2,,18-07-2024 11:01,14-01-2025 15:21,AZ,,A,N,N,N,N,O,M,Y,daily
+728,F,,85020,Phoenix,0,Y,Y,B,N,N,N,,,2,,13-08-2024 16:02,22-01-2025 09:07,AZ,,A,N,N,N,N,O,B,Y,wd
+746,F,,85335,El mirage,0,N,Y,B,N,N,N,,,2,,24-10-2024 14:22,05-12-2024 18:02,AZ,,A,N,N,N,N,O,M,Y,wd
+757,F,,85302,Phoenix,0,N,Y,B,N,N,N,,,1,,25-11-2024 11:25,05-12-2024 12:40,AZ,,A,N,N,N,N,O,M,Y,daily
+767,F,,85308,Glendale,0,N,Y,B,N,N,N,,,1,,06-01-2025 09:46,17-01-2025 11:23,AZ,,A,N,N,N,N,O,M,Y,daily
+158,,,7087,Union City,0,N,Y,D,Y,Y,N,,,6,0,17-01-2020 13:15,14-07-2022 15:27,Bergen.NJ  Hudson.NJ  Essex.NJ  Passaic.NJ  Union.,,A,Y,N,N,N,O,,,
+41,,,11210,BROOKLYN,0,N,Y,,Y,,,,N,5,50,06-06-2017 14:19,21-12-2019 16:31,BK NYC,,A,,N,N,N,O,,,
+291,,,10466,Bronx,0,Y,Y,D,Y,Y,N,,,2,,12-11-2021 10:48,27-04-2023 14:25,Bronx,,P,N,Y,N,N,G,,,
+93,,,10452,Bronx,0,N,Y,B,Y,,,,,5,0,25-10-2018 14:17,24-12-2018 10:34,"Bronx Manhattan  Queens (Long Island City, Astoria",,A,,N,N,N,O,,,
+120,,,10704,Yonkers,0,Y,Y,B,Y,Y,Y,Y,,2,0,23-05-2019 15:07,20-02-2020 14:07,Bronx NY,249,A,,N,N,N,O,,,
+287,F,,10468,Bronx,0,N,Y,D,Y,Y,N,,,10,,22-10-2021 12:09,31-01-2023 17:42,Bronx NY,,A,N,N,N,N,O,,,
+281,,,10453,bronx,0,N,Y,B,Y,Y,N,,,2,,05-10-2021 15:08,06-02-2024 12:13,"Bronx, NY",,A,N,Y,N,N,G,,,
+183,F,,10034,New York,0,N,Y,D,Y,Y,N,,,10,0,17-09-2020 09:53,27-06-2022 15:18,Bronx. Kings. Nassau. New York. Queens. Suffolk.,,A,N,N,N,N,O,,,
+192,F,,11375,New York ,0,Y,Y,B,Y,Y,N,,,2,0,15-12-2020 11:18,22-01-2025 20:32,Bronx.NY  Kings.NY  Nassau.NY  New York.NY  Queens,,A,N,N,N,N,O,,,
+193,M,,11372,Jackson heights ,0,Y,Y,B,Y,Y,Y,,,10,0,15-12-2020 13:28,24-01-2025 05:06,Bronx.NY  Kings.NY  New York.NY  Queens.NY  Richmo,,A,Y,N,N,N,G,,,
+241,F,,10039,New York,0,Y,Y,,,N,N,,,0,0,07-07-2021 21:03,24-01-2025 11:15,Bronx.NY  Kings.NY  New York.NY  Queens.NY  Richmo,,P,Y,Y,N,N,G,,,
+87,F,,11213,Brooklyn,0,N,Y,D,Y,Y,N,,,5,0,08-10-2018 10:55,21-11-2021 18:24,Brooklyn,,A,N,N,N,N,O,,,
+162,M,,11235,Brooklyn,0,N,Y,D,Y,N,N,,,2,0,13-02-2020 11:24,14-07-2022 15:14,Brooklyn,,A,N,N,N,N,O,,,
+311,F,,11206,brooklyn ,0,N,N,D,N,N,N,,,1,,25-01-2022 14:21,13-06-2022 16:52,Brooklyn,,A,N,N,N,N,O,,,
+319,M,,11221,Brooklyn,0,N,Y,D,Y,Y,N,,,2,,15-02-2022 13:54,16-05-2024 11:53,Brooklyn,,A,N,N,N,N,O,,,
+156,M,,11223,Brooklyn,0,Y,Y,B,Y,Y,Y,,,10,0,10-01-2020 14:24,25-06-2020 16:50,"Brooklyn , NY, Queens",366,A,,N,N,N,O,,,
+72,,,10303,STATEN ISLAND,0,N,Y,,Y,,,,Y,2,10,21-04-2018 11:44,02-02-2020 13:07,"Brooklyn ,Manhattan .Staten Island",,A,,N,N,N,O,,,
+138,F,Y,11233,Brooklyn,0,Y,Y,B,N,Y,Y,Y,,10,0,11-12-2019 13:03,21-09-2022 13:53,Brooklyn and Manhattan,333,A,N,N,N,N,O,,,
+65,F,,11226,Brooklyn ,0,N,N,,N,,,,Y,1,10,16-03-2018 17:42,08-02-2021 11:56,Brooklyn Manhattan ,,A,,N,N,N,O,,,
+80,F,,10314,staten island,0,N,Y,,Y,,,,Y,1,50,06-06-2018 15:33,08-02-2021 11:59,Brooklyn Manhattan and New Jersey,,A,,N,N,N,O,,,
+335,M,,10306,Staten Island,0,N,Y,B,Y,Y,N,,,2,,03-05-2022 10:49,24-01-2025 08:54,Brooklyn NY,,A,N,N,N,N,O,H,Y,wd
+170,F,,34747,Kissimmee,0,Y,Y,B,Y,Y,Y,,,2,0,10-06-2020 07:52,31-10-2023 13:26,Brooklyn NYC Nassu Suffolk,,A,Y,N,N,N,O,,,
+95,,,10306,Staten island,0,N,Y,B,Y,Y,Y,Y,,10,0,02-11-2018 18:52,29-01-2020 11:49,Brooklyn Staten island queens or bronx Manhattan ,,A,,N,N,N,O,,,
+64,F,,11215,Brooklyn ,0,N,Y,,Y,N,N,,N,5,50,16-03-2018 14:03,12-10-2023 10:02,"Brooklyn, New York",,A,N,N,N,N,O,,,
+430,F,,11206,Brooklyn ,0,N,Y,B,N,N,N,,,2,,27-10-2022 12:31,23-01-2023 14:47,"Brooklyn, NY",,A,N,N,N,N,O,H,Y,we
+112,F,,11212,Brooklyn,0,Y,Y,B,N,N,N,,,6,0,26-03-2019 14:55,14-07-2022 15:52,"Brooklyn, NYC, Queens",,A,N,N,N,N,O,,,
+141,F,Y,11420,Queens,0,Y,Y,B,Y,Y,Y,Y,,5,0,13-12-2019 14:34,31-12-2020 17:10,"Brooklyn, Queens and Manhattan",,A,,N,N,N,O,,,
+104,,,10460,Bronx,0,N,Y,D,Y,,,,,2,0,11-01-2019 14:14,08-02-2021 12:05,"BX, MANHATTAN, WESTCHESTER",,A,,N,N,N,O,,,
+109,F,,10451,Bronx,0,Y,Y,B,Y,Y,Y,Y,,6,0,26-02-2019 14:18,10-10-2024 21:14,"BX, NJ, Westchester, NYC ",,A,N,N,N,N,O,,,
+614,F,,92128,San Diego,0,N,Y,B,N,N,N,,,10,,12-12-2023 14:14,25-07-2024 13:30,CA,,A,N,N,N,N,O,M,Y,wd
+617,F,,91731,El Monte,0,N,Y,B,N,N,N,,,2,,14-12-2023 10:51,24-01-2025 00:45,CA,,A,N,N,N,N,O,M,Y,daily
+621,M,,91745,Hacienda heights,0,Y,Y,B,N,N,N,,,10,,16-12-2023 14:54,24-01-2025 04:25,CA,,A,N,N,N,N,O,B,Y,wd
+635,F,,94043,Mountain View,0,N,Y,B,Y,N,N,,,10,,22-12-2023 13:01,17-09-2024 10:05,CA,,A,N,N,N,N,O,M,Y,daily
+636,F,,91042,Los Angeles,0,Y,Y,B,Y,N,N,,,2,,28-12-2023 09:17,24-01-2025 11:33,CA,,A,N,N,N,N,O,B,Y,daily
+644,M,,90212,Beverly Hills,0,N,Y,B,Y,N,N,,,2,,11-01-2024 09:23,13-02-2024 11:31,CA,,A,N,N,N,N,O,B,Y,daily
+653,F,,91024,Sierra Madre,0,N,Y,B,Y,N,N,,,2,,02-02-2024 12:33,06-02-2024 23:49,CA,,A,N,N,N,N,O,B,Y,wd
+683,M,,90063,Los Angeles,0,Y,Y,B,N,N,N,,,2,,03-05-2024 09:44,22-01-2025 04:15,CA,,A,N,N,N,N,O,B,Y,wd
+700,F,,92780,Tustin,0,N,Y,B,N,N,N,,,2,,23-05-2024 12:54,24-01-2025 00:50,CA,,A,N,N,N,N,O,M,Y,wd
+702,M,,92701,Santa Ana,0,N,Y,B,Y,N,N,,,2,,29-05-2024 14:25,04-06-2024 23:17,CA,,A,N,N,N,N,O,M,Y,daily
+315,F,,80021,Broomfield,0,Y,Y,B,Y,Y,Y,,,2,,08-02-2022 11:05,22-01-2025 15:48,CO,,A,N,N,N,N,O,,,
+351,M,,80104,Castle Rock,0,Y,Y,B,Y,N,N,,,6,,12-07-2022 17:34,16-09-2022 14:26,CO,,A,N,N,N,N,O,B,Y,wd
+395,F,,80504,Longmont,0,Y,Y,B,Y,N,N,,,2,,16-09-2022 10:53,08-01-2025 19:24,CO,,A,N,N,N,N,O,B,Y,wd
+406,,,80246,Glendale,0,N,Y,B,N,N,N,,,0,,21-09-2022 14:02,03-01-2025 14:16,CO,,P,N,Y,N,N,G,M,Y,daily
+413,F,,80234,Denver,0,N,Y,B,N,N,N,,,1,,07-10-2022 09:59,09-01-2023 18:04,CO,,A,N,N,N,N,O,B,Y,daily
+419,F,,80023,Westminster,0,N,Y,B,Y,N,N,,,1,,18-10-2022 13:37,22-01-2025 18:17,CO,,A,N,N,N,N,O,M,Y,wd
+436,F,,80012,Aurora,0,N,Y,B,N,N,N,,,6,,11-11-2022 15:48,15-01-2023 19:23,CO,,A,N,N,N,N,O,B,Y,daily
+439,M,,80126,Littleton,0,Y,Y,B,N,N,N,,,10,,17-11-2022 16:54,26-12-2022 21:13,CO,,A,N,N,N,N,O,B,Y,daily
+466,F,,80013,Aurora,0,Y,Y,B,N,N,N,,,6,,11-01-2023 14:20,01-05-2024 16:30,CO,,A,N,N,N,N,O,B,Y,daily
+519,M,,80127,Littleton,0,N,Y,B,N,N,N,,,2,,30-05-2023 14:28,24-01-2025 10:40,CO,,A,N,N,N,N,O,M,Y,wd
+522,F,,82001,Cheyenne,0,N,Y,B,Y,N,N,,,2,,08-06-2023 11:10,16-12-2024 17:54,CO,,A,N,N,N,N,O,M,Y,wd
+526,,,80020,broomfield,0,Y,Y,B,N,N,N,,,10,,23-06-2023 13:39,22-06-2023 11:50,CO,4109,P,N,N,N,N,O,M,Y,wd
+552,,,80516,Erie,0,Y,Y,B,Y,N,N,,,2,,26-07-2023 17:40,15-01-2025 12:59,CO,,P,N,Y,N,N,G,B,Y,daily
+559,F,,80233,Thornton,0,N,Y,B,N,N,N,,,1,,09-08-2023 09:43,26-01-2024 21:07,CO,,A,N,N,N,N,O,B,Y,wd
+596,F,,80808,Calhan,0,N,Y,B,N,N,N,,,10,,07-10-2023 09:05,07-10-2023 09:15,CO,,A,N,N,N,N,O,M,Y,daily
+601,F,,80219,Denver,0,N,Y,B,Y,N,N,,,10,,21-10-2023 08:59,16-07-2024 13:13,CO,,A,N,N,N,N,O,M,Y,daily
+651,F,,80010,Aurora,0,N,Y,B,N,N,N,,,1,,31-01-2024 14:49,15-02-2024 11:30,CO,,A,N,N,N,N,O,M,Y,wd
+666,F,,80233,Northglenn,0,N,Y,B,Y,N,N,,,2,,27-03-2024 08:39,21-01-2025 17:07,CO,,A,N,N,N,N,O,M,Y,daily
+677,F,,10986, Woodrow Colorado ,0,N,Y,B,N,N,N,,,10,,26-04-2024 14:04,24-01-2025 11:59,CO,,A,N,N,N,N,O,M,Y,daily
+707,M,,80222,Denver,0,N,Y,B,Y,N,N,,,2,,17-06-2024 11:07,25-07-2024 10:55,CO,,A,N,N,N,N,O,B,Y,wd
+723,F,,80757,Woodrow,0,N,Y,B,N,N,N,,,2,,23-07-2024 15:57,07-09-2024 01:36,CO,,A,N,N,N,N,O,M,Y,daily
+727,M,,80246,Denver,0,N,Y,B,N,N,N,,,6,,09-08-2024 09:11,24-01-2025 11:55,CO,,A,N,N,N,N,O,M,Y,wd
+730,F,,80905,Colorado springs,0,Y,Y,B,Y,N,N,,,10,,22-08-2024 09:30,30-08-2024 17:40,CO,,A,N,N,N,N,O,M,Y,wd
+736,F,,80110,Englewood,0,N,Y,B,Y,N,N,,,10,,19-09-2024 13:39,29-12-2024 17:42,CO,,A,N,N,N,N,O,M,Y,wd
+741,M,,80223,Denver,0,Y,Y,B,N,N,N,,,10,,14-10-2024 16:48,24-01-2025 09:18,CO,,A,N,N,N,N,O,B,Y,wd
+86,F,,6851,Norwalk,0,N,Y,,Y,,,,N,10,50,16-07-2018 15:43,08-02-2021 12:04,Connecticut,,A,,N,N,N,O,,,
+195,F,,6511,New haven,0,Y,Y,B,Y,Y,N,,,1,0,06-01-2021 14:13,10-08-2023 17:32,Connecticut,,A,Y,N,N,N,O,,,
+341,F,,6902,Stamford,0,N,Y,B,Y,N,N,,,2,,17-06-2022 09:59,02-01-2024 14:26,CT,,A,N,N,N,N,O,H,Y,wd
+350,F,,6776,New Milford,0,N,Y,B,Y,N,N,,,10,,11-07-2022 11:30,27-12-2024 09:42,CT,,P,N,N,N,N,O,M,Y,wd
+400,F,,6605,Bridgeport,0,N,Y,B,N,N,N,,,2,,20-09-2022 14:32,18-06-2024 16:38,CT,,A,N,N,N,N,O,H,Y,daily
+418,F,,6804,Brookfield,0,N,Y,B,N,N,N,,,2,,18-10-2022 10:28,27-10-2022 14:33,CT,,A,N,N,N,N,O,M,Y,wd
+424,,,21061,Glen Burnie,0,N,Y,B,N,N,N,,,1,,21-10-2022 17:05,07-09-2024 20:01,CT,,P,N,Y,N,N,G,M,Y,daily
+449,,,6010,Bristol,0,N,Y,B,N,N,N,,,1,,15-12-2022 09:16,15-01-2025 16:54,CT,,P,N,Y,N,N,G,M,Y,daily
+488,F,,6514,Hamden,0,N,Y,B,Y,N,N,,,2,,24-03-2023 14:12,08-01-2025 19:17,CT,,A,N,N,N,N,O,M,Y,daily
+490,F,,6517,Hamden,0,N,Y,B,Y,N,N,,,2,,28-03-2023 16:21,06-07-2023 21:31,CT,,A,N,N,N,N,O,M,Y,daily
+501,,,6051,New Britain,0,Y,Y,B,N,N,N,,,1,,11-04-2023 09:33,15-01-2025 12:51,CT,,P,N,Y,N,N,O,H,Y,daily
+511,F,,6010,Bristol,0,N,Y,B,Y,N,N,,,10,,26-04-2023 11:37,20-01-2025 09:38,CT,,A,N,N,N,N,O,M,Y,wd
+517,F,,6051,New Britain,0,Y,Y,B,Y,N,N,,,2,,24-05-2023 08:38,23-01-2025 19:43,CT,,P,N,N,N,N,O,B,Y,daily
+523,F,,6088,East Windsor,0,N,Y,B,Y,N,N,,,6,,15-06-2023 10:44,15-06-2023 11:19,CT,,A,N,N,N,N,O,M,Y,wd
+624,F,,6401,Ansonia,0,N,Y,B,Y,N,N,,,2,,20-12-2023 10:01,04-04-2024 11:41,CT,,A,N,N,N,N,O,B,Y,daily
+647,F,,6902,Stamford,0,N,Y,B,Y,N,N,,,10,,12-01-2024 10:21,01-10-2024 15:15,CT,,A,N,N,N,N,O,M,Y,daily
+709,M,,6511,New Haven,0,N,Y,B,N,N,N,,,2,,24-06-2024 10:06,24-06-2024 20:59,CT,,A,N,N,N,N,O,M,Y,daily
+766,M,,6096,Windsor locks,0,N,Y,B,Y,N,N,,,10,,03-01-2025 16:48,24-01-2025 12:06,CT,,A,N,N,N,N,O,M,Y,daily
+775,F,,6470,Newtown,0,N,Y,B,N,N,N,,,2,,22-01-2025 08:16,24-01-2025 11:07,CT,,A,N,N,N,N,O,M,Y,wd
+330,F,,33190,Cutler Bay,0,N,Y,B,N,N,N,,,6,,20-04-2022 16:00,06-06-2022 15:45,Cutler Bay FL,,A,N,N,N,N,O,M,Y,wd
+225,M,,75034,Frisoc,0,Y,Y,D,Y,Y,N,,,0,0,15-06-2021 10:47,06-02-2024 12:20,Dallas,,P,N,Y,N,N,G,,,
+304,,,75248,dallas,0,Y,Y,D,N,N,N,,,2,,24-01-2022 14:33,06-02-2024 12:12,Dallas,,P,N,Y,N,N,G,,,
+231,F,,76036,Crowley,0,N,Y,D,Y,Y,Y,,,1,0,17-06-2021 15:24,27-06-2022 15:14,Dallas TX,,A,Y,N,N,N,O,,,
+340,F,,75025,plano,0,N,N,B,N,N,N,,,0,,13-06-2022 11:11,27-12-2022 08:52,"Dallas, TX",,A,Y,N,N,N,O,H,,
+692,M,,20020,Washington,0,N,Y,B,Y,N,N,,,6,,15-05-2024 13:10,31-05-2024 22:19,DC,,A,N,N,N,N,O,M,Y,daily
+328,F,,33414,Wellington,0,Y,Y,B,N,N,N,,,2,,13-04-2022 15:25,08-08-2022 08:45,Denver,,A,N,N,N,N,O,H,Y,daily
+89,F,,34986,Port St.Lucie,0,Y,Y,B,Y,Y,Y,Y,,6,0,16-10-2018 14:20,07-05-2024 17:14,FL,,A,Y,N,N,N,O,,,
+134,M,,33431,Boca Raton,0,N,Y,D,Y,Y,N,Y,,6,0,25-11-2019 15:52,21-09-2022 13:39,FL,,A,N,N,N,N,O,H,Y,
+347,F,,33428,boca raton,0,N,Y,B,Y,N,N,,,2,,22-06-2022 14:36,19-08-2022 14:47,FL,,A,N,N,N,N,O,H,Y,wd
+353,F,,34787,Winter Garden,0,N,Y,B,Y,N,N,,,10,,14-07-2022 17:51,29-09-2022 15:28,FL,,A,N,N,N,N,O,M,Y,wd
+390,F,,33180,Aventura,0,N,Y,B,Y,Y,N,,,1,,09-09-2022 10:05,08-02-2024 21:16,FL,,A,N,N,N,N,O,H,Y,wd
+417,F,,34112,Naples,0,N,Y,B,Y,N,N,,,1,,11-10-2022 12:57,18-06-2024 16:45,FL,,A,N,N,N,N,O,B,Y,daily
+455,F,,33024,Hollywood,0,N,Y,B,N,N,N,,,2,,21-12-2022 11:24,24-07-2024 10:45,FL,,A,N,N,N,N,O,B,Y,daily
+459,F,,33617,Tampa,0,Y,N,B,N,N,N,,,6,,29-12-2022 10:21,25-07-2024 09:30,FL,,A,N,N,N,N,O,H,,
+496,,,33810,Lakeland,0,Y,Y,B,N,N,N,,,1,,04-04-2023 14:39,16-01-2025 15:59,FL,,P,N,Y,N,N,G,H,N,daily
+509,F,,33584,Seffner,0,N,Y,B,Y,N,N,,,2,,24-04-2023 08:42,30-07-2024 00:25,FL,,A,N,N,N,N,O,B,Y,daily
+529,F,,33675,Tampa,0,Y,Y,B,Y,N,N,,,1,,29-06-2023 08:28,20-12-2024 16:41,FL,,A,N,N,N,N,O,B,Y,wd
+536,F,,33431,Boca Raton,0,Y,Y,B,N,N,N,,,2,,12-07-2023 16:04,10-09-2024 06:19,FL,,A,N,N,N,N,O,M,Y,wd
+681,F,,33928,Estero,0,N,Y,B,Y,N,N,,,10,,02-05-2024 14:00,06-05-2024 11:05,FL,,A,N,N,N,N,O,M,Y,wd
+704,F,,33418,Palm Beach Gardens,0,N,Y,B,Y,N,N,,,10,,07-06-2024 10:35,07-08-2024 10:46,FL,,A,N,N,N,N,O,B,Y,wd
+733,F,,33187,Miami,0,Y,Y,B,N,N,N,,,10,,11-09-2024 09:02,24-10-2024 08:37,FL,,A,N,N,N,N,O,M,Y,daily
+431,F,,76104,Fort Worth,0,Y,Y,B,Y,N,N,,,6,,27-10-2022 12:56,01-06-2023 12:59,Fort Worth,,A,N,N,N,N,O,H,Y,daily
+308,,,30032,Decatur,0,N,Y,D,N,N,N,,,2,,24-01-2022 14:45,22-01-2025 09:09,GA,,P,N,Y,N,N,G,,,
+309,,,30314,Atlanta,0,N,Y,D,N,N,N,,,2,,24-01-2022 14:47,15-01-2025 11:19,GA,,P,N,Y,N,N,G,,,
+367,M,,30213,fairburn,0,N,Y,B,N,N,N,,,2,,10-08-2022 09:59,01-06-2023 12:55,GA,,A,N,N,N,N,O,B,Y,wd
+370,F,,30032,Decatur,0,N,Y,B,Y,N,N,,,2,,13-08-2022 14:42,28-11-2024 14:44,GA,,A,N,N,N,N,O,H,Y,daily
+373,F,,30096,Duluth,0,Y,Y,B,Y,N,N,,,2,,17-08-2022 15:20,04-10-2022 18:01,GA,,A,N,N,N,N,O,M,Y,we
+381,F,,30016,Covington,0,N,Y,B,N,N,N,,,2,,26-08-2022 14:46,12-09-2022 14:34,GA,,A,N,N,N,N,O,B,Y,daily
+396,F,,30062,Marietta,0,Y,Y,B,N,N,N,,,10,,16-09-2022 13:22,26-10-2022 10:21,GA,,A,N,N,N,N,O,B,Y,wd
+397,F,,30034,Decatur,0,Y,Y,B,N,N,N,,,2,,20-09-2022 10:30,24-01-2025 10:48,GA,,A,N,N,N,N,O,B,Y,daily
+401,F,,30314,Atlanta,0,N,Y,B,Y,N,N,,,6,,21-09-2022 09:51,24-01-2025 10:17,GA,,A,N,N,N,N,O,B,Y,wd
+428,F,,30338,Dunwoody,0,Y,Y,B,Y,N,N,,,10,,26-10-2022 14:02,24-01-2025 12:12,GA,,A,N,N,N,N,O,B,Y,wd
+429,M,,30310,Atlanta,0,Y,Y,B,N,N,N,,,10,,27-10-2022 12:10,03-01-2023 09:21,GA,,A,N,N,N,N,O,H,Y,wd
+441,M,,6614,Stratford,0,N,Y,B,N,N,N,,,2,,30-11-2022 09:02,10-05-2023 10:17,GA,,A,N,N,N,N,O,H,Y,wd
+442,M,,30349,Atlanta,0,N,Y,B,N,N,N,,,2,,06-12-2022 11:35,06-11-2024 12:18,GA,,A,N,N,N,N,O,B,Y,wd
+460,F,,30088,Stone Mountain,0,Y,Y,B,Y,N,N,,,6,,30-12-2022 08:42,26-12-2023 08:08,GA,,A,N,N,N,N,O,B,Y,daily
+482,F,,30039,Snellville,0,N,Y,B,Y,Y,N,,,10,,17-03-2023 09:42,15-11-2024 13:55,GA,,A,N,N,N,N,O,B,Y,wd
+494,,,30039,Snellville,0,Y,Y,B,N,N,N,,,0,,04-04-2023 14:37,25-07-2024 09:23,GA,,P,N,Y,N,N,G,M,N,daily
+671,F,,30180,Villa Rica,0,N,Y,B,Y,N,N,,,1,,16-04-2024 08:41,16-04-2024 08:57,GA,,A,N,N,N,N,O,B,Y,we
+696,M,,30214,Fayetteville,0,Y,Y,B,Y,N,N,,,6,,20-05-2024 09:27,20-10-2024 15:11,GA,,A,N,N,N,N,O,M,Y,wd
+697,F,,30180,Villa Rica,0,N,Y,B,N,N,N,,,1,,20-05-2024 10:13,11-10-2024 13:31,GA,,A,N,N,N,N,O,B,Y,we
+699,F,,30308,Atlanta,0,N,Y,B,Y,N,N,,,2,,21-05-2024 14:22,18-01-2025 07:45,GA,,A,N,N,N,N,O,M,Y,daily
+708,F,,30294,Ellenwood,0,N,Y,B,Y,N,N,,,2,,20-06-2024 15:01,24-01-2025 11:04,GA,,A,N,N,N,N,O,M,Y,wd
+715,F,,30297,Forest Park,0,Y,Y,B,Y,N,N,,,6,,10-07-2024 14:12,24-01-2025 04:26,GA,,A,N,N,N,N,O,M,Y,daily
+724,F,,30236,Jonesboro,0,N,Y,B,Y,N,N,,,2,,24-07-2024 10:38,14-01-2025 15:21,GA,,A,N,N,N,N,O,M,Y,wd
+725,F,,30253,McDonough,0,Y,Y,B,Y,N,N,,,6,,31-07-2024 11:14,24-01-2025 08:25,GA,,A,N,N,N,N,O,M,Y,daily
+755,F,,30067,Marietta,0,N,Y,B,Y,N,N,,,2,,21-11-2024 08:57,14-01-2025 15:11,GA,,A,N,N,N,N,O,H,Y,daily
+771,F,,30157,Dallas,0,N,Y,B,N,N,N,,,6,,09-01-2025 11:55,21-01-2025 16:26,GA,,A,N,N,N,N,O,M,Y,daily
+280,F,,77450,katty,0,N,Y,B,Y,Y,N,,,2,,05-10-2021 15:05,30-05-2024 16:41,Harris and Montgomery,,A,N,Y,N,N,G,,,
+314,F,,77388,Spring,0,N,Y,D,N,N,N,,,0,,04-02-2022 16:25,15-11-2024 09:02,Houston,,A,N,N,N,N,O,,,
+327,M,,77063,Houston,0,Y,Y,B,Y,N,N,,,6,,11-04-2022 15:08,18-07-2022 09:27,Houston,,A,N,N,N,N,O,H,Y,wd
+338,F,,77493,katy,0,Y,Y,B,N,N,N,,,6,,08-06-2022 17:04,23-09-2024 15:31,"Houston, TX",,A,N,N,N,N,O,B,Y,wd
+235,F,,7657,Ridgefield,0,N,Y,,,N,N,,,0,0,07-07-2021 21:02,17-10-2024 10:26,Hudson,,P,Y,Y,N,N,G,,,
+416,,,32822,orlando,0,Y,Y,B,Y,N,N,,,0,,11-10-2022 12:54,18-11-2022 07:48,Hudson,,P,N,N,N,N,O,B,Y,daily
+576,F,,60429,Hazel Crest,0,N,Y,B,N,N,N,,,6,,14-09-2023 09:17,26-12-2023 20:44,IL,,A,N,N,N,N,O,M,Y,wd
+577,F,,60194,Schaumburg,0,N,Y,B,N,N,N,,,2,,15-09-2023 16:30,03-12-2023 01:19,IL,,A,N,N,N,N,O,M,Y,wd
+579,,,60429,Hazel Crest,0,N,Y,B,Y,N,N,,,2,,20-09-2023 11:00,25-09-2024 13:41,IL,,P,N,Y,N,N,G,H,Y,daily
+595,F,,60097,Wonder Lake,0,Y,Y,B,Y,N,N,,,10,,06-10-2023 09:52,23-01-2025 07:45,IL,,A,N,N,N,N,O,M,Y,wd
+639,F,,60639,Chicago,0,N,Y,B,Y,N,N,,,2,,02-01-2024 12:00,14-01-2025 16:01,IL,,A,N,N,N,N,O,M,Y,wd
+658,F,,60617,Chicago,0,Y,Y,B,Y,N,N,,,2,,16-02-2024 09:09,19-03-2024 08:40,IL,,A,N,N,N,N,O,B,Y,daily
+689,F,,60608,Chicago,0,N,Y,B,N,N,N,,,2,,09-05-2024 11:54,08-09-2024 10:56,IL,,A,N,N,N,N,O,H,Y,daily
+698,F,,60620,Chicago,0,Y,Y,B,Y,N,N,,,6,,20-05-2024 11:48,26-08-2024 18:45,IL,,A,N,N,N,N,O,M,Y,wd
+712,M,,10025,New York,0,N,Y,B,Y,N,N,,,2,,03-07-2024 10:33,03-11-2024 13:25,IL,,A,N,N,N,N,O,H,Y,daily
+713,F,,60827,Chicago,0,N,Y,B,Y,N,N,,,2,,05-07-2024 11:56,25-07-2024 12:57,IL,,A,N,N,N,N,O,B,Y,daily
+716,F,,60641,Chicago,0,Y,Y,B,Y,N,N,,,6,,15-07-2024 13:46,30-08-2024 10:23,IL,,A,N,N,N,N,O,B,Y,wd
+737,F,,60438,Lansing,0,N,Y,B,Y,N,N,,,10,,20-09-2024 09:40,14-01-2025 15:13,IL,,A,N,N,N,N,O,M,Y,daily
+740,M,,60618,Chicago,0,N,N,B,N,N,N,,,2,,14-10-2024 10:06,10-01-2025 14:12,IL,,A,Y,N,N,N,O,B,Y,wd
+744,F,,60302,Oak park,0,Y,Y,B,Y,N,N,,,6,,22-10-2024 09:06,06-12-2024 22:17,IL,,A,N,N,N,N,O,M,N,daily
+747,,,60193,schaumburg,0,Y,Y,B,Y,N,N,,,2,,31-10-2024 13:25,29-10-2024 09:46,IL,5241,P,N,N,N,N,O,M,Y,wd
+750,F,,60620,Chicago,0,N,Y,B,N,N,N,,,2,,08-11-2024 08:41,17-12-2024 16:54,IL,,A,N,N,N,N,O,M,Y,daily
+753,M,,60618,Chicago,0,N,Y,B,N,N,N,,,2,,14-11-2024 08:07,24-01-2025 11:43,IL,,A,N,N,N,N,O,M,Y,daily
+149,F,,7083,Union,0,N,Y,D,N,,,,,5,0,27-12-2019 11:59,08-02-2021 15:25,"Jersey City, Hoboken, Union and New York",350,A,,N,N,N,O,,,
+117,M,,7304,Jersey City,0,Y,Y,B,Y,N,N,,,2,0,13-05-2019 17:25,29-07-2024 10:08,"Jersey City, NY, ",,A,N,N,N,N,O,,,
+194,F,,10451,Bronx,0,N,Y,D,Y,Y,N,,,2,0,18-12-2020 16:10,27-01-2022 13:57,"kings county , Bronx and Queens",,A,Y,N,N,N,O,,,
+485,,,2131,Boston,0,N,Y,B,N,N,N,,,2,,20-03-2023 11:18,03-10-2024 08:54,MA,,P,N,Y,N,N,G,M,Y,daily
+491,F,,2131,Roslindale,0,N,Y,B,N,N,N,,,10,,29-03-2023 16:02,24-01-2025 09:50,MA,,A,N,N,N,N,O,B,Y,wd
+497,,,2148,Malden,0,Y,Y,B,N,N,N,,,0,,04-04-2023 14:40,16-01-2025 13:09,MA,,P,N,Y,N,N,G,H,N,daily
+532,F,,1375,Sunderland,0,Y,Y,B,N,N,N,,,2,,05-07-2023 16:26,03-01-2024 15:55,MA,,A,N,N,N,N,O,B,Y,daily
+585,,,2072,stoughton,0,Y,Y,B,Y,N,N,,,2,,20-09-2023 11:05,30-12-2024 16:56,MA,,P,N,Y,N,N,G,H,Y,daily
+594,F,,2368,Randolph,0,N,Y,B,N,N,N,,,6,,06-10-2023 09:20,31-01-2024 07:32,MA,,A,N,N,N,N,O,M,Y,wd
+616,M,,2767,Raynham,0,Y,Y,B,Y,N,N,,,6,,13-12-2023 11:28,24-01-2025 11:32,MA,,A,N,N,N,N,O,B,Y,daily
+623,M,,2130,Jamaica Plain,0,Y,Y,B,N,N,N,,,2,,19-12-2023 12:30,12-02-2024 16:29,MA,,A,N,N,N,N,O,B,Y,daily
+732,F,,1844,Methuen,0,N,Y,B,Y,N,N,,,10,,02-09-2024 10:11,24-09-2024 20:18,MA,,A,N,N,N,N,O,M,Y,wd
+772,M,,2148,Malden,0,N,Y,B,N,N,N,,,2,,16-01-2025 09:13,24-01-2025 11:29,MA,,A,N,N,N,N,O,M,Y,wd
+299,F,,10040,manhattan,0,N,Y,D,Y,Y,N,,,1,,05-01-2022 18:15,29-03-2023 09:44,Manattan / Bronx,,A,N,N,N,N,O,,,
+108,,,10035,New York,0,N,Y,D,N,,,,,5,0,22-02-2019 15:18,05-02-2020 15:09,MANHATTAN,,A,,N,N,N,O,,,
+118,F,,11580,Valley Stream,0,Y,Y,B,Y,Y,Y,,,2,0,14-05-2019 09:35,24-01-2025 12:14,Manhattan,,A,N,N,N,N,O,,,
+94,,,11212,Brooklyn ,0,N,Y,D,Y,Y,,,,5,0,25-10-2018 17:44,29-01-2020 11:52,Manhattan and Brooklyn,,A,,N,N,N,O,,,
+62,,,10037,New York,0,N,Y,,Y,,,,N,2,50,24-02-2018 15:17,08-02-2021 11:55,"Manhattan, Bronx",,A,,N,N,N,O,,,
+100,F,,10025,New York City,0,N,Y,D,Y,,,,,10,0,07-12-2018 14:04,08-01-2021 20:32,"Manhattan, Bronx, Yonkers",,A,,N,N,N,O,,,
+103,F,,10462,Bronx,0,N,Y,D,Y,Y,N,,,6,0,11-01-2019 14:14,14-07-2022 15:53,"Manhattan, Bronx, Yonkers.BK",,A,N,N,N,N,O,,,
+57,,,10037,NY,0,Y,Y,,N,N,N,,Y,0,100,08-11-2017 12:45,24-01-2025 10:22,"Manhattan, Brooklyn",,A,N,N,N,N,G,,,
+59,,,10038,New york ,0,N,Y,,N,N,N,,Y,10,50,25-01-2018 13:42,24-01-2025 09:18,"Manhattan, Brooklyn",,A,N,N,N,N,O,,,
+176,F,,11385,glendale,0,N,Y,D,Y,Y,N,,,2,0,20-07-2020 12:13,27-01-2022 13:37,"Manhattan, Brooklyn & Queens",,A,N,N,N,N,O,,,
+167,,,7017,East Orange,0,Y,Y,B,Y,Y,,,,5,0,28-02-2020 12:11,24-05-2020 09:33,"Manhattan, Brooklyn and Jersey City",,A,,N,N,N,O,,,
+60,M,,10301,Staten Island,0,Y,Y,,Y,N,N,,Y,10,100,23-02-2018 12:42,16-05-2022 17:50,"Manhattan, Brooklyn, Staten Island, Queens",,A,N,Y,N,N,G,,,
+238,M,,10301,Staten Island,0,Y,Y,,,N,N,,,0,0,07-07-2021 21:02,23-08-2021 20:53,"Manhattan, Brooklyn, Staten Island, Queens",,P,N,Y,N,N,G,,,
+56,,,28208,Charlotte,0,N,Y,,Y,N,N,,Y,6,50,19-10-2017 11:01,13-11-2024 09:21,"Manhattan, NJ,",,A,N,N,N,N,O,,,
+312,F,,33063,Margate,0,N,Y,D,Y,N,N,,,1,,26-01-2022 15:38,29-03-2024 11:04,Margate FL,,A,N,N,N,N,O,,,
+255,M,,21215,Baltimore ,0,Y,Y,,,N,N,,,0,0,13-08-2021 13:04,13-01-2025 13:13,MD,,P,N,Y,N,N,G,,,
+489,F,,21234,Parkville,0,N,Y,B,Y,N,N,,,6,,27-03-2023 16:03,27-03-2023 17:20,MD,,A,N,N,N,N,O,M,Y,wd
+527,M,,21061,Glen Burnie,0,N,Y,B,Y,N,N,,,2,,26-06-2023 08:53,24-01-2025 11:20,MD,,A,N,N,N,N,O,M,Y,daily
+591,F,,20616,Bryans road,0,N,Y,B,N,N,N,,,10,,23-09-2023 12:15,26-12-2023 17:04,MD,,A,N,N,N,N,O,B,Y,daily
+599,F,,21771,Mt Airy,0,Y,Y,B,Y,N,N,,,10,,12-10-2023 10:04,26-01-2024 14:16,MD,,A,N,N,N,N,O,M,Y,daily
+600,M,,21117,Owing Mills,0,Y,Y,B,Y,N,N,,,2,,17-10-2023 14:03,24-01-2025 12:08,MD,,A,N,N,N,N,O,M,Y,wd
+673,F,,21060,Glen Burnie ,0,N,Y,B,N,N,N,,,2,,19-04-2024 13:52,19-04-2024 15:04,MD,,A,N,N,N,N,O,M,Y,wd
+675,F,,21093,Lutherville-Timonium,0,N,Y,B,Y,N,N,,,2,,26-04-2024 08:48,08-05-2024 12:43,MD,,A,N,N,N,N,O,B,Y,daily
+678,F,,21215,Baltimore,0,Y,Y,B,Y,N,N,,,2,,29-04-2024 11:19,21-01-2025 20:51,MD,,A,N,N,N,N,O,M,Y,daily
+705,F,,21202,Baltimore,0,N,Y,B,Y,N,N,,,1,,11-06-2024 09:11,19-01-2025 10:56,MD,,A,N,N,N,N,O,M,Y,wd
+751,F,,21222,Dundalk,0,Y,Y,B,N,N,N,,,2,,11-11-2024 09:29,12-11-2024 07:11,MD,,A,N,N,N,N,O,M,Y,daily
+752,M,,21117,Owings Mills,0,Y,Y,B,N,N,N,,,2,,12-11-2024 08:56,12-11-2024 09:00,MD,,A,N,N,N,N,O,M,Y,daily
+756,F,,20746,Suitland,0,N,Y,B,N,N,N,,,2,,25-11-2024 09:57,18-01-2025 17:09,MD,,A,N,N,N,N,O,M,Y,daily
+763,,,10704,yonkers,0,N,Y,B,N,N,N,,,1,,23-12-2024 16:38,15-01-2025 12:06,MD,,P,N,Y,N,N,O,M,Y,daily
+533,F,,48197,Ypsilanti,0,N,Y,B,Y,N,N,,,2,,07-07-2023 11:12,27-11-2023 10:28,MI,,A,N,N,N,N,O,M,Y,wd
+177,F,,33179,Miami,0,Y,Y,B,Y,Y,N,,,5,0,24-07-2020 11:25,27-01-2022 13:39,Miami,,A,N,N,N,N,O,,,
+200,F,,33025,Pembroke Pines ,0,Y,Y,B,N,N,N,,,10,0,22-01-2021 09:53,05-08-2021 10:15,Miami,,A,N,N,N,N,O,,,
+201,,,33146,Miami,0,Y,N,B,Y,Y,Y,,,10,0,03-03-2021 14:10,05-08-2021 10:15,Miami,,A,N,N,N,N,O,,,
+207,M,,33137,Miami,0,Y,Y,B,Y,Y,Y,,,2,0,25-03-2021 10:45,01-07-2021 13:19,Miami,,P,N,N,N,N,O,,,
+212,F,,33126,Miami,0,N,Y,D,Y,Y,N,,,2,0,14-04-2021 22:24,15-01-2025 10:46,Miami,578,A,N,N,N,N,O,,,
+213,F,,33126,Miami ,0,N,Y,D,Y,Y,N,,,0,0,21-04-2021 10:55,24-01-2025 11:22,Miami,,A,N,Y,N,N,G,,,
+232,F,,33155,Miami,0,N,Y,D,N,Y,N,,,10,0,21-06-2021 11:32,12-10-2023 09:58,Miami,,A,N,N,N,N,O,,,
+252,F,,33161,North Miami,0,N,Y,D,N,Y,N,,,0,0,10-08-2021 11:03,27-06-2022 15:13,Miami,,A,Y,N,N,N,O,,,
+321,F,,33135,Miami,0,N,N,D,Y,Y,N,,,1,,23-02-2022 14:42,20-01-2024 13:53,Miami,,A,N,N,N,N,O,,,
+499,F,,33811,Lakeland,0,Y,Y,B,N,N,N,,,2,,04-04-2023 16:48,24-01-2025 12:11,Miami & Fort Lauderdale,,A,N,N,N,N,O,H,Y,daily
+197,F,,33160,Miami ,0,N,Y,D,Y,Y,N,,,1,0,08-01-2021 11:00,18-10-2022 00:19,Miami FL,,A,N,N,N,N,O,,,
+168,F,,33168,Miami,0,N,Y,D,N,,,,,2,0,06-03-2020 11:23,25-06-2020 17:29,"Miami, Florida",,A,Y,N,N,N,O,,,
+218,F,,33071,Coral Springs,0,N,N,D,Y,Y,N,,,2,0,10-05-2021 11:28,21-01-2025 17:13,"Miami,Other",590,A,Y,Y,N,N,O,,,
+324,,,33172,miami,0,Y,N,B,Y,N,N,,,2,,02-03-2022 17:14,07-07-2022 15:59,my service areas,,P,Y,N,N,N,O,B,N,we
+155,F,,11003,ELMONT,0,N,Y,D,Y,Y,N,,,6,0,06-01-2020 17:27,14-01-2025 17:23,Nassau County and Queens,363,A,Y,N,N,N,O,,,
+326,M,,11355,Flushing,0,N,Y,B,Y,N,N,,,2,,11-04-2022 14:27,24-01-2025 08:52,Nassue,,A,N,N,N,N,O,M,,
+531,F,,28785,Waynesville,0,Y,Y,B,Y,N,N,,,2,,04-07-2023 10:22,15-07-2023 18:26,NC,,A,N,N,N,N,O,M,Y,daily
+540,,,28376,raeford,0,Y,Y,B,Y,N,N,,,10,,26-07-2023 09:10,26-07-2023 09:10,NC,4256,P,N,N,N,N,O,B,Y,wd
+541,F,,28079,Indian trail,0,Y,Y,B,N,N,N,,,6,,26-07-2023 09:49,06-12-2024 09:54,NC,4262,A,N,N,N,N,O,B,Y,wd
+583,,,10473,New York,0,N,Y,B,Y,N,N,,,2,,20-09-2023 11:03,11-01-2025 16:23,NC,,P,N,Y,N,N,G,H,Y,daily
+593,F,,28304,Fayetteville,0,N,Y,B,N,N,N,,,2,,03-10-2023 09:10,11-12-2023 15:14,NC,,A,N,N,N,N,O,B,Y,daily
+610,F,,28208,Charlotte,0,N,Y,B,Y,N,N,,,2,,07-12-2023 09:54,28-02-2024 11:50,NC,,A,N,N,N,N,O,B,Y,wd
+611,F,,28209,Charlotte,0,N,Y,B,N,N,N,,,1,,07-12-2023 11:54,06-02-2024 13:26,NC,,A,N,N,N,N,O,M,Y,wd
+612,F,,28205,Charlotte,0,N,Y,B,N,N,N,,,10,,08-12-2023 16:39,21-08-2024 08:50,NC,,A,N,N,N,N,O,M,Y,we
+649,F,,28027,Concord,0,Y,Y,B,Y,N,N,,,2,,31-01-2024 12:53,19-06-2024 09:39,NC,,A,N,N,N,N,O,M,Y,daily
+654,F,,28227,Charlotte,0,Y,Y,B,Y,N,N,,,2,,14-02-2024 10:15,04-01-2025 10:37,NC,,A,N,N,N,N,O,B,Y,wd
+722,F,,27603,Raleigh,0,Y,Y,B,Y,N,N,,,1,,19-07-2024 15:24,06-09-2024 16:05,NC,,A,N,N,N,N,O,H,Y,daily
+743,F,,27893,Wilson,0,Y,Y,B,Y,N,N,,,6,,21-10-2024 14:13,27-10-2024 00:30,NC,,A,N,N,N,N,O,B,Y,daily
+762,M,,27253,Graham,0,N,Y,B,N,N,N,,,1,,23-12-2024 14:39,24-01-2025 08:25,NC,,A,N,N,N,N,O,M,Y,wd
+205,F,,8859,Parlin,0,N,N,D,Y,Y,N,,,2,0,17-03-2021 19:25,14-07-2022 14:42,New Jersey,,A,N,N,N,N,O,,,
+272,F,Y,7643,Little Ferry,0,N,Y,,Y,Y,N,,,2,0,16-09-2021 16:40,06-06-2023 18:07,New Jersey,,P,N,N,N,N,G,,,
+273,M,,7065,Rahway,0,N,Y,B,Y,Y,Y,,,2,,21-09-2021 10:18,17-03-2023 08:11,New Jersey,,A,N,N,N,N,O,,,
+290,,,11102,Astoria,0,N,Y,B,Y,N,N,,,2,,28-10-2021 15:43,06-02-2024 12:13,New Jersey,,A,Y,Y,N,N,G,,,
+329,M,,33705,St. Petersburg,0,N,Y,B,Y,N,N,,,10,,15-04-2022 14:21,10-12-2023 22:01,New Jersey,,A,N,N,N,N,O,H,Y,wd
+91,,,10468,Bronx ,0,N,Y,D,N,,,,,5,0,17-10-2018 19:41,29-01-2020 12:03,New Jersey/NYC,,A,,N,N,N,O,,,
+70,F,,10805,New Rochelle,0,N,Y,,Y,,,,N,1,10,16-04-2018 15:02,08-02-2021 11:58,"New Rochelle, NY",,A,,N,N,N,O,,,
+203,F,,10023,Manhattan ,0,N,N,D,N,Y,N,,,2,0,17-03-2021 12:45,21-12-2021 12:39,New York,,A,Y,N,N,N,O,,,
+204,M,,10030,Manhattan ,0,Y,N,B,N,Y,N,,,2,0,17-03-2021 12:46,21-12-2021 12:36,New York,,A,Y,N,N,N,O,,,
+206,F,,11233,brooklyn ,0,N,Y,D,Y,Y,N,,,2,0,18-03-2021 15:36,14-01-2025 15:11,New York,,A,N,N,N,N,O,,,
+208,F,,10458,bronx,0,Y,Y,B,Y,Y,Y,,,2,0,29-03-2021 14:47,14-07-2022 14:39,New York,,A,N,N,N,N,O,,,
+209,F,,10709,Eastchester,0,Y,Y,B,Y,Y,N,,,6,0,30-03-2021 13:00,14-07-2022 14:35,New York,,A,N,N,N,N,O,,,
+214,F,,11237,"Brooklyn, NY",0,Y,Y,D,Y,Y,N,,,2,0,09-05-2021 23:31,15-04-2022 15:32,New York,592,A,N,N,N,N,O,,,
+215,,,10573,rye brook ,0,N,N,D,N,Y,N,,,1,0,10-05-2021 11:27,21-09-2022 13:37,New York,589,P,Y,N,N,N,O,,,
+216,F,,10452,Bronx ,0,N,N,D,Y,Y,N,,,2,0,10-05-2021 11:28,13-01-2025 07:24,New York,588,A,Y,N,N,N,O,,,
+220,M,,10029,New York,0,Y,Y,B,N,Y,N,,,1,0,24-05-2021 08:00,06-04-2022 17:07,New York,598,P,Y,N,N,N,O,,,
+222,F,,10466,Bronx,0,Y,Y,B,N,Y,Y,,,0,0,27-05-2021 11:30,28-03-2023 16:37,New York,,P,N,N,N,N,O,,,
+223,M,,10466,Bronx,0,Y,Y,B,Y,Y,Y,,,0,0,02-06-2021 14:08,12-04-2022 16:11,New York,,A,N,N,N,N,O,,,
+229,M,,10704,Yonkers,0,Y,Y,B,Y,Y,Y,,,10,0,16-06-2021 10:11,07-07-2021 10:25,New York,,P,N,Y,N,N,G,,,
+230,F,,33161,North Miami,0,Y,Y,B,Y,Y,Y,,,1,0,16-06-2021 13:49,08-08-2023 03:04,New York,,A,N,N,N,N,O,,,
+242,,,11355,Flushing ,0,Y,Y,B,N,Y,Y,,,2,0,14-07-2021 12:07,03-10-2024 07:42,New York,,P,N,N,N,N,O,,,
+245,,,10704,NY,0,N,Y,D,N,Y,N,,,2,0,19-07-2021 12:45,21-09-2022 13:37,New York,,P,N,N,N,N,O,,,
+248,F,,10467,Bronx ,0,N,Y,D,N,N,N,,,1,0,26-07-2021 12:37,27-06-2022 15:14,New York,,A,Y,N,N,N,O,,,
+250,F,,10467,Bronx ,0,Y,Y,B,N,Y,Y,,,2,0,06-08-2021 14:53,06-12-2021 13:16,New York,,A,Y,N,N,N,O,,,
+251,F,,10039,New York,0,N,Y,D,N,Y,N,,,0,0,06-08-2021 16:28,23-01-2025 07:12,New York,,A,N,N,N,N,O,,,
+254,F,,11236,Brooklyn,0,N,Y,B,Y,Y,Y,,,0,0,12-08-2021 13:48,03-12-2024 17:37,New York,,A,Y,N,N,N,O,,,
+259,F,,11233,Brooklyn,0,Y,Y,B,Y,Y,Y,,,0,0,23-08-2021 15:04,20-08-2024 08:55,New York,,A,N,N,N,N,O,,,
+260,F,,11733,East Setauket,0,N,Y,D,N,Y,N,,,2,0,26-08-2021 13:19,07-03-2022 12:00,New York,,A,N,N,N,N,O,,,
+262,M,,10016,New York,0,N,Y,D,Y,Y,N,,,1,0,03-09-2021 12:08,13-10-2024 12:46,New York,,A,N,N,N,N,O,,,
+267,F,,10530,Hartsdale,0,N,Y,D,Y,Y,N,,,1,0,13-09-2021 14:29,01-03-2024 15:43,New York,,A,Y,N,N,N,O,,,
+284,F,,10302,Staten Island,0,N,Y,D,Y,Y,N,,,2,,18-10-2021 12:03,17-06-2023 11:22,New York,,A,Y,N,N,N,O,,,
+285,F,,11207,Brooklyn,0,Y,Y,D,Y,Y,Y,,,0,,18-10-2021 13:43,13-01-2023 16:20,New York,,A,Y,N,N,N,O,,,
+289,F,,10312,Staten island,0,Y,Y,D,Y,Y,Y,,,10,,28-10-2021 15:23,23-01-2025 23:08,New York,,A,N,N,N,N,O,,,
+296,F,,11234,Brooklyn,0,N,Y,D,Y,Y,N,,,6,,17-12-2021 12:51,12-01-2025 22:26,New York,,A,N,N,N,N,O,,,
+302,F,,10040,New York,0,Y,Y,B,Y,Y,Y,,,0,,18-01-2022 10:43,24-01-2025 10:59,New York,,A,N,N,N,N,O,,,
+318,F,,11379,Middle Village,0,N,Y,D,Y,Y,N,,,2,,14-02-2022 13:13,14-06-2023 17:15,New York,,A,Y,N,N,N,O,,,
+334,F,,10453,Bronx,0,N,Y,D,N,Y,N,,,10,,28-04-2022 10:47,12-08-2022 08:22,New York,,A,N,N,N,N,O,,,
+464,F,,11967,Shirley,0,N,Y,B,Y,Y,N,,,6,0,04-01-2023 16:51,28-10-2023 01:47,New York,,A,N,N,N,N,O,,,
+469,F,,10455,Bronx,0,N,Y,B,Y,Y,N,,,2,0,08-02-2023 09:17,13-02-2023 20:51,New York,,A,Y,N,N,N,O,,,
+590,M,,10928,Highland Falls,0,N,Y,B,Y,Y,N,,,1,,20-09-2023 14:57,24-01-2025 09:26,"New York City, Westchester, North Jersey",,A,N,N,N,N,O,H,Y,wd
+249,M,,6830,Greenwich,0,Y,Y,B,Y,Y,Y,,,0,0,03-08-2021 15:55,23-01-2025 09:43,"New York,Connecticut",,P,N,N,N,N,O,,,
+286,F,,10552,Mount Vernon,0,N,Y,D,Y,Y,N,,,0,,18-10-2021 13:56,14-01-2025 15:52,"New York,Connecticut",,A,N,N,N,N,O,H,Y,
+227,F,,6607,Bridgeport,0,N,Y,D,Y,Y,N,,,2,0,15-06-2021 11:46,21-09-2022 13:52,"New York,Connecticut,Other",,A,N,N,N,N,O,,,
+224,F,,11223,Brooklyn,0,N,Y,D,Y,Y,N,,,5,0,09-06-2021 11:54,29-07-2021 19:06,"New York,New Jersey",,P,N,N,N,N,O,,,
+233,M,,7105,Newark ,0,Y,Y,B,Y,Y,N,,,10,0,03-07-2021 09:02,02-08-2021 07:45,"New York,New Jersey",,P,N,N,N,N,O,,,
+246,F,,10306,Staten Island,0,N,Y,D,Y,Y,N,,,2,0,23-07-2021 09:24,17-08-2021 21:54,"New York,New Jersey",,A,N,N,N,N,O,,,
+247,F,,11207,Brooklyn ,0,N,Y,B,Y,Y,N,,,2,0,25-07-2021 12:12,22-01-2025 07:30,"New York,New Jersey",,A,Y,N,N,N,O,,,
+253,M,,11212,Brooklyn,0,Y,Y,B,Y,Y,Y,,,0,0,11-08-2021 12:36,27-06-2022 15:12,"New York,New Jersey",,A,Y,N,N,N,O,,,
+265,F,,7094,Secaucus,0,Y,Y,D,N,Y,N,,,10,,07-09-2021 13:30,21-09-2024 12:32,"New York,New Jersey",,A,N,N,N,N,O,,,
+211,,,10704,Yonkers,0,Y,N,B,Y,Y,Y,,,2,0,07-04-2021 21:21,15-12-2023 18:13,"New York,New Jersey,Connecticut",579,P,Y,N,N,N,O,,,
+493,F,,10504,Armonk,0,Y,Y,B,N,N,N,,,10,,04-04-2023 11:53,14-09-2023 17:33,"New York,New Jersey,Connecticut,Philadelphia",,A,Y,N,N,N,O,H,Y,
+355,F,,11207,Brooklyn Ny,0,N,N,B,Y,Y,N,,,2,,22-07-2022 15:39,03-01-2024 15:43,"New York,Other",,A,Y,N,N,N,O,H,,
+125,F,,7104,Newark,0,N,Y,D,Y,Y,N,,,2,0,22-10-2019 12:22,21-01-2025 21:00,Newark NJ,,A,N,N,N,N,O,,,
+568,F,,3867,Rochester,0,Y,Y,B,Y,N,N,,,6,,22-08-2023 09:32,23-08-2023 17:24,NH,,A,N,N,N,N,O,M,Y,wd
+40,,,7103,Newark,0,N,Y,,N,,,,N,2,10,06-06-2017 12:34,07-05-2020 20:01,NJ,,A,,N,N,N,O,,,
+52,,,7666,Teaneck ,0,N,Y,,Y,,,,N,5,100,08-08-2017 11:22,03-02-2020 12:21,NJ,,A,,N,N,N,O,,,
+79,F,,7064,Port Reading,0,N,Y,,Y,N,N,,N,1,10,06-06-2018 10:48,28-06-2022 15:36,NJ,,A,N,N,N,N,O,,,
+143,F,,7203,Roselle,0,N,Y,D,Y,Y,N,,,6,0,14-12-2019 11:16,14-07-2022 15:30,NJ,,A,N,N,N,N,O,,,
+163,,,7103,Newark,0,N,Y,B,Y,Y,Y,,,10,0,14-02-2020 16:10,07-05-2020 19:19,NJ,,A,,N,N,N,O,,,
+169,F,,7036,Linden,0,N,Y,D,Y,Y,N,,,2,0,15-05-2020 13:02,25-03-2024 14:01,NJ,,A,Y,N,N,N,O,,,
+198,F,,32940,Melbourne,0,N,Y,D,Y,Y,N,,,0,0,08-01-2021 13:13,02-01-2025 08:34,NJ,,A,Y,N,N,N,O,,,
+274,,,8830,NJ,0,Y,Y,B,Y,N,N,,,2,,21-09-2021 12:18,16-05-2024 11:40,NJ,,A,N,Y,N,N,G,,,
+276,,,7026,nj,0,N,Y,B,Y,N,N,,,2,,21-09-2021 12:25,15-01-2025 11:10,NJ,,A,N,Y,N,N,G,,,
+305,,,11414,Howard beach,0,Y,Y,D,N,N,N,,,2,,24-01-2022 14:41,08-01-2025 16:48,NJ,,P,N,Y,N,N,G,,,
+332,F,,7042,Montclair,0,Y,N,B,Y,N,N,,,6,,22-04-2022 19:44,26-08-2023 12:46,NJ,,A,Y,N,N,N,O,B,Y,we
+343,M,,7666,Teaneck,0,N,Y,B,N,N,N,,,2,,20-06-2022 09:52,06-02-2024 12:07,NJ,,P,N,Y,N,N,G,M,Y,daily
+354,F,,7882,Washington,0,N,Y,B,Y,N,N,,,6,,19-07-2022 17:04,19-01-2025 12:49,NJ,,A,Y,N,N,N,O,B,Y,daily
+357,M,,7106,newark,0,Y,Y,B,N,N,N,,,10,,26-07-2022 14:48,26-07-2022 15:04,NJ,,A,N,N,N,N,O,B,Y,daily
+360,M,,7628,Dumont,0,N,Y,B,N,N,N,,,2,,01-08-2022 12:36,02-01-2025 20:20,NJ,,A,N,N,N,N,O,M,,wd
+363,F,,7666,teaneck,0,N,Y,B,Y,N,N,,,2,,04-08-2022 09:49,23-01-2025 19:58,NJ,,A,N,N,N,N,O,M,Y,wd
+388,F,,7032,Kearny,0,N,Y,B,N,N,N,,,2,,01-09-2022 14:13,26-01-2024 12:31,NJ,,P,Y,N,N,N,O,H,,
+412,F,,7111,Irvington,0,N,Y,B,Y,N,N,,,1,,05-10-2022 17:03,08-04-2023 21:14,NJ,,A,N,N,N,N,G,H,Y,wd
+432,F,,7093,West New York,0,N,Y,B,N,N,N,,,1,,31-10-2022 11:23,23-01-2025 18:47,NJ,,A,N,N,N,N,O,H,Y,wd
+433,M,,7060, NorthPlainfiled ,0,N,Y,B,Y,N,N,,,2,,03-11-2022 12:15,24-01-2025 09:47,NJ,,A,N,N,N,N,O,M,Y,wd
+438,F,,8090,Wenonah,0,N,Y,B,Y,N,N,,,10,,14-11-2022 16:03,17-05-2023 15:00,NJ,,A,N,N,N,N,O,H,Y,daily
+443,M,,7036,Linden,0,N,Y,B,Y,N,N,,,2,,07-12-2022 14:12,19-07-2024 11:49,NJ,,A,N,N,N,N,O,H,Y,wd
+444,F,,7657,Ridgefield ,0,N,Y,B,N,N,N,,,2,,09-12-2022 16:13,24-01-2025 06:25,NJ,,A,N,N,N,N,O,H,Y,wd
+454,F,,7828,Budd lake,0,N,Y,B,Y,N,N,,,2,,19-12-2022 11:15,18-05-2023 14:06,NJ,,A,N,N,N,N,O,M,Y,wd
+456,F,,7040,Maplewood,0,Y,Y,B,Y,N,N,,,2,,22-12-2022 16:30,23-01-2025 21:03,NJ,,A,N,N,N,N,O,B,Y,daily
+463,M,,7201,Elizabeth,0,Y,Y,B,N,N,N,,,6,,04-01-2023 13:56,11-11-2024 13:08,NJ,,A,N,N,N,N,O,B,N,daily
+465,F,,8094,Williamstown,0,N,Y,B,Y,N,N,,,10,,06-01-2023 15:36,23-01-2023 20:44,NJ,,A,N,N,N,N,O,H,Y,daily
+468,F,,7095,Woodbridge,0,N,Y,B,Y,N,N,,,10,,30-01-2023 16:01,22-01-2025 20:12,NJ,,A,N,N,N,N,O,M,Y,wd
+471,F,,8846,Middlesex,0,Y,Y,B,N,N,N,,,10,,09-02-2023 08:52,07-01-2025 13:17,NJ,,A,N,N,N,N,O,B,Y,wd
+474,M,,7032,Kearny,0,Y,Y,B,Y,N,N,,,2,,17-02-2023 10:52,14-01-2025 18:15,NJ,,A,N,N,N,N,O,H,Y,wd
+476,F,,7860,Newton,0,Y,Y,B,Y,N,N,,,2,,02-03-2023 11:23,01-05-2023 09:05,NJ,,A,N,N,N,N,O,B,Y,daily
+512,F,,7016,Cranford,0,N,Y,B,Y,N,N,,,2,,28-04-2023 14:50,03-06-2023 19:55,NJ,,A,N,N,N,N,O,B,Y,daily
+513,F,,7950,Morris Plains,0,N,Y,B,Y,N,N,,,1,,04-05-2023 09:11,08-07-2023 13:42,NJ,,A,N,N,N,N,O,H,Y,daily
+520,M,,7105,Newark,0,Y,Y,B,N,N,N,,,2,,05-06-2023 09:02,20-10-2024 15:45,NJ,,A,N,N,N,N,O,B,Y,daily
+556,F,,7093,Guttenberg,0,Y,Y,B,Y,N,N,,,2,,03-08-2023 12:29,19-11-2024 14:53,NJ,,A,N,N,N,N,O,B,Y,daily
+575,F,,7304,Jersey City,0,N,Y,B,Y,N,N,,,2,,13-09-2023 15:42,01-03-2024 18:15,NJ,,A,N,N,N,N,O,B,Y,wd
+580,,,10704,Yonkers,0,Y,Y,B,Y,N,N,,,2,,20-09-2023 11:01,05-04-2024 11:58,NJ,,P,N,Y,N,N,G,H,Y,daily
+581,,,7090,Westfield,0,N,Y,B,Y,N,N,,,2,,20-09-2023 11:02,11-06-2024 08:04,NJ,,P,N,Y,N,N,G,H,Y,daily
+592,F,,8876,Somerville,0,N,Y,B,Y,N,N,,,1,,29-09-2023 14:19,24-01-2025 10:20,NJ,,A,N,N,N,N,O,B,Y,daily
+597,M,,7042,Montclair,0,N,Y,B,Y,N,N,,,10,,11-10-2023 08:53,28-03-2024 13:39,NJ,,A,N,N,N,N,O,H,N,daily
+637,F,,7205,Hillside,0,N,Y,B,Y,N,N,,,2,,28-12-2023 10:13,12-01-2025 12:15,NJ,,A,N,N,N,N,O,H,Y,daily
+650,M,,8360,Vineland,0,Y,Y,B,N,N,N,,,2,,31-01-2024 14:09,22-09-2024 21:28,NJ,,A,N,N,N,N,O,M,Y,daily
+652,M,,7075,Wood Ridge,0,N,Y,B,Y,N,N,,,6,,01-02-2024 11:23,20-01-2025 21:22,NJ,,A,N,N,N,N,O,B,Y,wd
+661,M,,7456,Ringwood,0,Y,Y,B,Y,N,N,,,2,,13-03-2024 16:57,25-03-2024 17:09,NJ,,A,N,N,N,N,O,M,Y,daily
+672,M,,8079,Salem,0,N,Y,B,N,N,N,,,10,,16-04-2024 12:07,28-08-2024 23:38,NJ,,A,N,N,N,N,O,M,Y,daily
+679,F,,8048,Lumberton,0,Y,Y,B,Y,N,N,,,10,,30-04-2024 10:10,29-07-2024 10:17,NJ,,A,N,N,N,N,O,M,Y,daily
+684,F,,7005,Boonton,0,Y,Y,B,N,N,N,,,2,,06-05-2024 15:04,24-01-2025 12:13,NJ,,A,N,N,N,N,O,B,Y,daily
+685,F,,8094,Williamstown,0,Y,Y,B,Y,N,N,,,2,,08-05-2024 10:09,16-01-2025 10:33,NJ,,A,N,N,N,N,O,M,Y,daily
+688,F,,7040,Maplewood,0,N,Y,B,Y,N,N,,,2,,09-05-2024 09:38,19-08-2024 11:06,NJ,,A,N,N,N,N,O,H,Y,wd
+691,F,,7029,Harrison,0,Y,Y,B,N,N,N,,,0,,15-05-2024 11:31,24-01-2025 09:09,NJ,,A,N,N,N,N,O,B,Y,wd
+693,F,,7087,Union City,0,N,Y,B,Y,N,N,,,2,,15-05-2024 15:33,25-10-2024 17:10,NJ,,A,N,N,N,N,O,H,Y,wd
+701,M,,7093,West new york,0,N,Y,B,N,N,N,,,1,,28-05-2024 14:55,24-01-2025 09:06,NJ,,A,N,N,N,N,O,H,Y,wd
+711,,,7010,Cliffside Park,0,Y,Y,B,Y,N,N,,,10,,02-07-2024 14:11,24-01-2025 10:17,NJ,,P,N,N,N,N,O,B,Y,daily
+726,F,,8021,Lindenwold,0,N,Y,B,Y,N,N,,,2,,01-08-2024 09:21,08-08-2024 11:31,NJ,,A,N,N,N,N,O,M,Y,daily
+729,F,,7030,Hoboken,0,N,Y,B,N,N,N,,,2,,21-08-2024 08:33,03-12-2024 17:55,NJ,,A,N,N,N,N,O,B,Y,daily
+731,F,,8901,New Brunswick,0,N,Y,B,Y,N,N,,,10,,28-08-2024 10:32,11-01-2025 15:50,NJ,,P,N,N,N,N,O,B,Y,daily
+759,F,,7410,Fair lawn,0,N,Y,B,N,N,N,,,2,,12-12-2024 13:13,15-01-2025 07:03,NJ,,A,N,N,N,N,O,H,Y,daily
+764,F,,7032,Kearny,0,N,Y,B,Y,N,N,,,2,,27-12-2024 09:34,15-01-2025 06:47,NJ,,A,N,N,N,N,O,H,Y,wd
+765,M,,8046,Willingboro,0,N,Y,B,N,N,N,,,1,,31-12-2024 09:00,22-01-2025 10:59,NJ,,A,N,N,N,N,O,H,Y,daily
+105,,,7044,Verona,0,N,Y,D,Y,Y,,,,2,0,29-01-2019 14:03,22-02-2020 10:10,NJ ,,A,,N,N,N,O,,,
+96,,,7424,Little falls,0,N,Y,D,N,,,,,2,0,12-11-2018 15:59,08-05-2020 11:50,NJ NYC,,A,,N,N,N,O,,,
+106,,,7103,Newark,0,Y,Y,B,Y,Y,Y,,,2,0,12-02-2019 14:01,08-05-2020 11:48,NJ NYC,,A,,N,N,N,O,,,
+126,F,,8535,Millstone,0,N,Y,D,N,N,N,,,5,0,23-10-2019 13:55,24-01-2022 12:28,NJ Richmond,,A,N,N,N,N,O,,,
+92,M,,7424,Little Falls,0,N,Y,D,Y,Y,,,,1,0,23-10-2018 11:18,28-10-2020 15:50,"NJ, NY",,A,,N,N,N,O,,,
+173,M,,7304,Jersey city ,0,Y,Y,B,Y,Y,,,,5,0,10-06-2020 11:14,21-09-2020 14:41,"nj, nyc",,A,,N,N,N,O,,,
+123,F,,7047,North Bergen,0,Y,Y,B,Y,Y,N,,,6,0,12-09-2019 13:12,21-09-2022 13:56,"NJ, NYC, Bronx",,A,N,N,N,N,O,,,
+142,,Y,7047,North Bergen,0,N,Y,D,Y,Y,N,,,6,0,13-12-2019 14:36,14-07-2022 15:42,North Bergen,,A,N,N,N,N,O,,,
+376,F,,10704,Yonkers,0,Y,Y,B,Y,N,N,,,6,,20-08-2022 13:46,24-01-2025 11:39,NV,,A,N,N,N,N,O,M,Y,daily
+378,F,,89117,Las vegas,0,Y,Y,B,Y,N,N,,,6,,23-08-2022 12:52,01-06-2023 13:14,NV,,A,N,N,N,N,O,M,Y,wd
+399,F,,89122,Las Vegas,0,N,Y,B,Y,N,N,,,10,,20-09-2022 13:38,10-10-2022 10:00,NV,,A,N,N,N,N,O,M,Y,daily
+67,F,,11105,Astoria,0,N,Y,,Y,N,N,,Y,2,50,27-03-2018 08:31,05-09-2024 09:52,NY,,G,N,N,N,N,O,,,
+160,F,,10019,New York,0,N,Y,D,N,,,,,10,0,24-01-2020 12:23,08-02-2021 12:21,NY,375,A,,N,N,N,O,,,
+187,F,,11375,Forest Hills,0,Y,Y,B,N,Y,Y,,,10,0,18-11-2020 12:41,27-01-2022 13:52,NY,,A,N,N,N,N,O,,,
+199,F,,11214,Brooklyn ,0,N,Y,D,Y,Y,N,,,2,0,19-01-2021 12:57,14-07-2022 15:02,NY,,A,Y,N,N,N,O,,,
+210,F,,11414,Howard beach,0,N,Y,D,N,Y,N,,,2,0,31-03-2021 09:38,23-11-2023 10:57,NY,,A,N,N,N,N,O,,,
+234,M,,10467,Bronx,0,N,Y,,,N,N,,,0,0,07-07-2021 21:00,02-10-2024 23:24,NY,,P,Y,Y,N,N,G,,,
+288,F,,10029,New York,0,N,N,D,Y,N,N,,,2,,28-10-2021 14:09,24-02-2024 11:29,NY,,A,N,N,N,N,O,,,
+294,,,10704,NY,0,Y,N,B,Y,Y,Y,,,0,,09-12-2021 13:08,03-10-2024 15:43,NY,,A,N,N,Y,N,O,,,
+303,F,,10452,Bronx ,0,N,N,D,Y,Y,N,,,2,,18-01-2022 17:14,24-05-2024 22:56,NY,,A,N,N,N,N,O,,,
+306,,,80233,Northglenn,0,N,Y,D,N,N,N,,,6,,24-01-2022 14:43,15-01-2025 13:41,NY,,P,N,Y,N,N,G,,,
+310,,,10704,ny,0,Y,Y,D,N,N,N,,,2,,24-01-2022 14:49,23-05-2024 15:53,NY,,P,N,Y,N,N,O,,,
+331,F,,11213,Brooklyn,0,N,Y,B,N,N,N,,,1,,22-04-2022 12:58,23-03-2024 06:42,NY,,A,N,N,N,N,O,H,Y,wd
+337,,,10704,yonkers,0,N,Y,B,N,N,N,,,1,,16-05-2022 14:57,21-09-2022 13:36,NY,,P,N,N,N,N,O,M,Y,daily
+339,F,,11203,Brooklyn,0,N,Y,B,Y,N,N,,,2,,10-06-2022 17:07,01-03-2024 15:39,NY,,A,N,N,N,N,O,H,Y,wd
+342,M,,10704,Yonkers ,0,N,Y,B,N,N,N,,,2,,20-06-2022 09:50,23-05-2024 08:38,NY,,P,N,Y,N,N,G,M,Y,wd
+344,,,7628,Dumont,0,Y,Y,B,N,N,N,,,2,,20-06-2022 09:54,02-07-2024 16:23,NY,,P,N,Y,N,N,G,M,Y,daily
+345,,,10704,yonkers,0,Y,Y,B,N,N,N,,,2,,20-06-2022 09:55,21-02-2024 10:27,NY,,P,N,Y,N,N,G,M,Y,daily
+346,,,10704,yonkers,0,Y,Y,B,N,N,N,,,2,,20-06-2022 09:57,16-05-2024 14:27,NY,,P,N,Y,N,N,G,M,Y,daily
+348,F,,10704,yonkers,0,N,Y,B,Y,N,N,,,6,,28-06-2022 16:44,07-10-2022 17:14,NY,,A,N,N,N,N,O,H,Y,we
+349,F,,7093,Guttenberg,0,Y,Y,B,Y,N,N,,,10,,01-07-2022 13:33,01-11-2024 10:12,NY,,A,N,N,N,N,O,B,Y,daily
+358,M,,10030,New York,0,N,Y,B,Y,N,N,,,2,,27-07-2022 14:41,18-12-2022 00:28,NY,,P,N,N,N,N,O,H,Y,wd
+359,F,,11717,Brentwood,0,N,Y,B,Y,N,N,,,1,,01-08-2022 10:55,24-02-2023 19:04,NY,,A,N,N,N,N,O,H,Y,we
+361,M,,8724,Brick Township,0,N,Y,B,N,N,N,,,1,,01-08-2022 14:20,25-07-2024 10:04,NY,,P,Y,N,N,N,O,B,Y,daily
+365,F,,11235,Brooklyn,0,N,Y,B,Y,Y,N,,,2,,05-08-2022 15:45,09-03-2023 11:13,NY,,A,N,N,N,N,O,H,N,wd
+372,F,,11220,Brooklyn,0,N,Y,B,Y,N,N,,,10,,16-08-2022 10:12,13-01-2023 18:48,NY,,A,N,N,N,N,O,M,Y,wd
+379,F,,10463,Bronx,0,N,Y,B,N,N,N,,,6,,26-08-2022 10:39,24-01-2025 08:20,NY,,A,N,N,N,N,O,B,Y,wd
+386,,,32118,daytona beach,0,Y,Y,B,N,N,N,,,1,,30-08-2022 13:50,29-12-2022 16:28,NY,,P,N,N,N,N,O,B,Y,daily
+387,M,,11105,Astoria,0,N,Y,B,Y,Y,Y,,,10,,31-08-2022 17:17,16-12-2024 12:54,NY,,P,N,N,N,N,G,H,Y,wd
+398,F,,10009,New York,0,Y,Y,B,N,N,N,,,2,,20-09-2022 12:10,11-10-2023 13:12,NY,,A,N,N,N,N,O,B,Y,wd
+402,,,8724,Brick Township,0,Y,Y,B,N,N,N,,,2,,21-09-2022 14:00,15-01-2025 11:11,NY,,P,N,Y,N,N,G,M,N,daily
+403,,,10704,yonkers,0,Y,Y,B,N,N,N,,,0,,21-09-2022 14:00,01-02-2024 13:27,NY,,P,N,Y,N,N,G,M,Y,daily
+404,,,30034,Decatur,0,Y,Y,B,N,N,N,,,0,,21-09-2022 14:01,06-02-2024 12:02,NY,,P,N,Y,N,N,G,M,Y,daily
+407,F,,11434,Jamaica,0,N,Y,B,N,N,N,,,2,,23-09-2022 16:06,03-01-2024 15:43,NY,,A,N,N,N,N,O,M,N,
+408,,,10704,yonkers,0,Y,Y,B,N,N,N,,,1,,26-09-2022 11:18,13-11-2024 09:21,NY,,P,N,N,N,N,O,B,Y,daily
+409,M,,11413,Jamaica,0,Y,Y,B,Y,N,N,,,10,,28-09-2022 17:44,16-01-2025 11:30,NY,,A,N,N,N,N,O,M,Y,wd
+414,F,,11413,Laurelton,0,N,Y,B,Y,N,N,,,10,,08-10-2022 11:24,27-12-2022 15:36,NY,,A,N,N,N,N,O,H,Y,wd
+415,M,,10576,Pound Ridge,0,Y,Y,B,N,N,N,,,2,,11-10-2022 09:56,07-01-2023 12:52,NY,,A,N,N,N,N,O,H,Y,wd
+422,F,,11367,Flushing,0,N,Y,B,Y,N,N,,,6,,19-10-2022 11:33,04-10-2024 13:59,NY,,A,N,N,N,N,O,M,Y,we
+423,,,60302,Oak park ,0,N,Y,B,N,N,N,,,0,,21-10-2022 17:04,15-01-2025 11:21,NY,,P,N,Y,N,N,G,M,Y,daily
+425,F,,10604,Yonkers,0,Y,Y,B,N,N,N,,,0,,21-10-2022 17:06,01-01-2025 11:48,NY,,P,N,Y,N,N,G,M,N,daily
+426,,,78734,Austin,0,N,Y,B,N,N,N,,,0,,21-10-2022 17:09,15-01-2025 12:54,NY,,P,N,Y,N,N,G,M,N,daily
+437,F,,10552,Mt vernon,0,N,Y,B,N,N,N,,,2,,12-11-2022 11:54,23-01-2024 17:42,NY,,A,N,N,N,N,O,H,Y,wd
+448,,,10704,yonkers,0,Y,Y,B,N,N,N,,,0,,15-12-2022 09:15,07-02-2024 11:53,NY,,P,N,Y,N,N,G,M,Y,daily
+450,,,80104,Castle Rock,0,N,Y,B,N,N,N,,,1,,15-12-2022 09:18,15-01-2025 11:15,NY,,P,N,Y,N,N,G,M,Y,daily
+451,,,10704,yonkers,0,Y,Y,B,N,N,N,,,1,,15-12-2022 09:19,16-02-2024 14:45,NY,,P,N,Y,N,N,G,M,Y,daily
+452,,,10704,yonkers,0,Y,Y,B,N,N,N,,,1,,15-12-2022 09:19,15-01-2025 11:18,NY,,P,N,Y,N,N,G,M,Y,daily
+453,M,,11369,East Elmhurst,0,N,Y,B,Y,N,N,,,1,,15-12-2022 09:31,20-06-2023 21:12,NY,,A,N,N,N,N,O,H,Y,daily
+457,F,,10304,Staten Island,0,N,Y,B,N,N,N,,,10,,23-12-2022 09:58,23-12-2022 10:08,NY,,R,N,N,N,N,O,H,Y,wd
+461,F,,10469,Bronx,0,N,Y,B,N,N,N,,,1,,30-12-2022 09:43,06-01-2025 11:09,NY,,A,N,N,N,N,O,M,Y,wd
+462,F,,10309,Staten Island,0,N,Y,B,Y,N,N,,,10,,04-01-2023 09:17,23-09-2024 11:23,NY,,A,N,N,N,N,O,B,Y,wd
+470,F,,34203,Bradenton,0,N,Y,B,Y,N,N,,,2,,08-02-2023 15:08,24-01-2025 11:13,NY,,A,N,N,N,N,O,B,Y,wd
+472,F,,10304,Staten Island,0,N,Y,B,N,N,N,,,10,,10-02-2023 15:54,23-01-2025 15:26,NY,,A,N,N,N,N,O,H,Y,wd
+475,F,,11206,Brooklyn ,0,N,Y,B,Y,N,N,,,10,,28-02-2023 16:09,11-05-2024 11:14,NY,,A,N,N,N,N,O,B,Y,wd
+480,F,,11704,West Babylon,0,N,Y,B,Y,N,N,,,1,,13-03-2023 11:33,20-06-2023 15:21,NY,,A,N,N,N,N,O,H,Y,wd
+481,F,,10035,New York,0,Y,Y,B,Y,N,N,,,6,,15-03-2023 10:49,10-06-2023 08:33,NY,,A,N,N,N,N,O,B,Y,daily
+486,,,10312,Staten island,0,Y,Y,B,N,N,N,,,2,,20-03-2023 11:20,08-01-2025 16:48,NY,,P,N,Y,N,N,G,M,Y,daily
+492,M,,11203,Brooklyn,0,N,Y,B,N,N,N,,,6,,31-03-2023 10:58,23-01-2025 13:27,NY,,A,Y,N,N,N,O,H,Y,daily
+498,,,10704,yonkers,0,N,Y,B,N,N,N,,,2,,04-04-2023 14:42,15-01-2025 11:18,NY,,P,N,Y,N,N,G,M,Y,daily
+500,M,,91007,Arcadia,0,Y,Y,B,N,N,N,,,2,,10-04-2023 13:29,10-07-2024 20:03,NY,,A,N,N,N,N,O,H,Y,wd
+502,,,10704,yonkers,0,Y,Y,B,N,N,N,,,1,,11-04-2023 09:43,04-11-2024 23:51,NY,,P,N,Y,N,N,G,H,N,daily
+503,,,10704,yonkers,0,Y,Y,B,N,N,N,,,1,,11-04-2023 09:46,06-02-2024 11:51,NY,,P,N,Y,N,N,G,H,Y,daily
+504,,,23227,Richmond,0,Y,Y,B,N,N,N,,,1,,11-04-2023 09:47,13-11-2024 13:07,NY,,P,N,Y,N,N,G,B,Y,daily
+505,,,10704,yonkers,0,Y,Y,B,N,N,N,,,1,,11-04-2023 09:47,06-09-2023 10:50,NY,,P,N,Y,N,N,G,H,Y,daily
+510,F,,10704,yonkers,0,N,Y,B,Y,N,N,,,2,,26-04-2023 09:29,24-01-2025 08:20,NY,,A,N,N,N,N,O,B,Y,daily
+515,M,,11419,South Richmond Hill,0,Y,Y,B,Y,N,N,,,2,,11-05-2023 16:19,23-01-2025 10:53,NY,,A,N,N,N,N,O,B,Y,wd
+518,,,10704,yonkers,0,Y,Y,B,Y,N,N,,,1,,25-05-2023 15:41,25-05-2023 15:42,NY,,P,N,N,N,N,O,B,Y,daily
+521,F,,11236,New York,0,Y,Y,B,N,N,N,,,2,,07-06-2023 09:44,21-01-2025 16:27,NY,,A,N,N,N,N,O,B,Y,wd
+524,F,,11104,Queens,0,Y,Y,B,Y,N,N,,,6,,19-06-2023 10:37,18-06-2024 16:38,NY,,A,N,N,N,N,O,H,Y,wd
+528,F,,11234, Brooklyn ,0,N,Y,B,N,N,N,,,1,,26-06-2023 11:46,19-01-2025 13:37,NY,,A,N,N,N,N,O,B,Y,daily
+534,F,,11355,Flushing,0,N,Y,B,N,N,N,,,0,,10-07-2023 12:42,06-11-2024 10:46,NY,,A,N,N,N,N,O,H,Y,daily
+535,F,,11740,Greenlawn,0,N,Y,B,Y,N,N,,,0,,11-07-2023 13:19,06-09-2024 16:34,NY,,A,N,N,N,N,O,M,Y,wd
+537,M,,10459,Garnerville,0,N,Y,B,Y,N,N,,,1,,18-07-2023 12:09,26-02-2024 23:12,NY,,A,N,N,N,N,O,M,Y,daily
+538,M,,11377,New York,0,N,Y,B,Y,N,N,,,1,,21-07-2023 16:27,17-09-2024 09:36,NY,,A,N,N,N,N,O,H,Y,we
+539,,,10704,yonkers,0,Y,Y,B,Y,N,N,,,2,,26-07-2023 09:09,26-07-2023 09:08,NY,4259,P,N,Y,N,N,O,B,Y,daily
+543,M,,10520,croton-on-hudson,0,Y,Y,B,Y,N,N,,,10,,26-07-2023 17:03,06-11-2024 11:11,NY,,A,N,N,N,N,O,M,Y,daily
+544,,,10704,Yonkers,0,Y,Y,B,N,N,N,,,2,,26-07-2023 17:34,01-03-2024 11:31,NY,,P,N,Y,N,N,G,B,Y,daily
+545,,,76502,Temple,0,N,Y,B,Y,N,N,,,2,,26-07-2023 17:34,26-02-2024 10:29,NY,,P,N,Y,N,N,G,B,Y,daily
+546,,,28079,yonkers,0,N,Y,B,Y,N,N,,,2,,26-07-2023 17:35,15-01-2025 12:19,NY,,P,N,Y,N,N,G,B,Y,daily
+547,,,10704,yonkers,0,N,Y,B,Y,N,N,,,2,,26-07-2023 17:36,11-01-2024 12:03,NY,,P,N,Y,N,N,G,M,Y,daily
+548,,,10704,yonkers,0,N,Y,B,Y,N,N,,,2,,26-07-2023 17:36,07-08-2024 10:35,NY,,P,N,Y,N,N,G,M,Y,daily
+549,,,21771,Mt Airy,0,Y,Y,B,Y,N,N,,,2,,26-07-2023 17:37,15-01-2025 12:06,NY,,P,N,Y,N,N,G,B,Y,daily
+550,,,10704,yonkers,0,Y,Y,B,Y,N,N,,,2,,26-07-2023 17:37,06-02-2024 11:41,NY,,P,N,Y,N,N,G,B,Y,daily
+551,,,19003, Ardmore,0,Y,Y,B,Y,N,N,,,2,,26-07-2023 17:39,23-01-2025 17:49,NY,,P,N,Y,N,N,G,B,Y,daily
+553,,,60194,Schaumburg,0,Y,Y,B,Y,N,N,,,2,,26-07-2023 17:41,15-01-2025 13:01,NY,,P,N,Y,N,N,G,M,Y,daily
+554,F,,10986,Tomkins Cove,0,N,Y,B,Y,N,N,,,2,,27-07-2023 09:15,18-12-2024 23:08,NY,,A,N,N,N,N,O,B,Y,daily
+558,,,10468,new york,0,Y,Y,B,Y,N,N,,,2,,07-08-2023 13:39,07-08-2023 12:31,NY,4333,P,N,N,N,N,O,H,Y,wd
+562,,,10977,Spring Valley,0,N,Y,B,Y,N,N,,,10,,14-08-2023 13:06,24-01-2025 10:04,NY,,P,N,N,N,N,O,M,Y,daily
+564,M,,10705,Yonkers,0,N,Y,B,Y,N,N,,,6,,16-08-2023 10:59,24-01-2025 11:27,NY,,A,N,N,N,N,O,B,Y,wd
+565,F,,11212,Brooklyn,0,Y,Y,B,Y,N,N,,,6,,17-08-2023 15:15,04-03-2024 12:42,NY,,A,N,N,N,N,O,H,Y,daily
+566,F,,10314,Staten island,0,Y,Y,B,Y,N,N,,,2,,17-08-2023 15:49,24-01-2025 09:05,NY,,A,N,N,N,N,O,M,Y,daily
+567,F,,10520,Croton-on-hudson,0,Y,Y,B,Y,N,N,,,2,,18-08-2023 09:54,02-09-2024 08:05,NY,,A,N,N,N,N,O,M,Y,daily
+569,F,,10701,Yonkers,0,N,Y,B,Y,N,N,,,2,,23-08-2023 11:24,23-01-2025 00:49,NY,,A,N,N,N,N,O,M,Y,daily
+570,F,,7204,Roselle Park,0,Y,Y,B,Y,N,N,,,10,,23-08-2023 13:50,18-09-2023 14:58,NY,,A,N,N,N,N,O,H,N,wd
+571,F,,10704,Yonkers,0,Y,Y,B,Y,N,N,,,2,,25-08-2023 11:23,24-01-2025 10:24,NY,,A,N,N,N,N,O,M,Y,we
+572,M,,10461,Bronx,0,Y,Y,B,Y,N,N,,,2,,29-08-2023 10:42,22-04-2024 13:09,NY,,P,N,N,N,N,O,B,Y,daily
+573,M,,10467,New York,0,Y,Y,B,N,N,N,,,1,,29-08-2023 13:36,21-02-2024 10:40,NY,,P,N,N,N,N,O,H,Y,wd
+582,,,10314,Staten island,0,Y,Y,B,Y,N,N,,,2,,20-09-2023 11:02,08-01-2025 16:30,NY,,P,N,Y,N,N,G,H,Y,daily
+584,,,10704,yonkers,0,Y,Y,B,Y,N,N,,,2,,20-09-2023 11:04,02-10-2024 08:39,NY,,P,N,Y,N,N,G,M,Y,daily
+586,,,10704,yonkers,0,Y,Y,B,Y,N,N,,,2,,20-09-2023 11:05,23-01-2024 15:51,NY,,P,N,N,N,N,O,H,Y,daily
+587,,,85304,Glendale,0,Y,Y,B,Y,N,N,,,2,,20-09-2023 11:06,07-06-2024 08:02,NY,,P,N,Y,N,N,G,H,Y,daily
+588,,,85051,Phoenix,0,Y,Y,B,Y,N,N,,,2,,20-09-2023 11:06,15-01-2025 12:52,NY,,P,N,Y,N,N,G,H,Y,daily
+603,F,,11225,Brooklyn,0,N,Y,B,Y,N,N,,,2,,27-10-2023 16:28,13-05-2024 13:34,NY,,A,N,N,N,N,O,H,Y,wd
+604,F,,11422,Queens,0,Y,Y,B,N,N,N,,,2,,01-11-2023 11:39,24-01-2025 11:29,NY,,A,N,N,N,N,O,M,Y,wd
+605,F,,11207,Brooklyn,0,N,Y,B,Y,N,N,,,2,,08-11-2023 09:56,24-01-2025 11:40,NY,,A,N,N,N,N,O,H,Y,daily
+606,F,,10009,Manhattan,0,Y,Y,B,Y,N,N,,,1,,08-11-2023 16:11,20-01-2025 20:40,NY,,A,N,N,N,N,O,H,Y,daily
+607,M,,10956,New City,0,Y,N,B,Y,N,N,,,2,,21-11-2023 11:14,26-01-2024 14:15,NY,,A,Y,N,N,N,O,B,Y,wd
+608,M,,11580,Valley Stream,0,N,Y,B,Y,N,N,,,2,,30-11-2023 14:37,02-01-2025 18:04,NY,,A,N,N,N,N,O,H,Y,wd
+609,F,,10454,Bronx,0,Y,N,B,N,N,N,,,0,,06-12-2023 13:25,05-12-2024 17:41,NY,,A,Y,N,N,N,O,B,Y,wd
+619,F,,10705,Yonkers,0,N,Y,B,Y,N,N,,,2,,15-12-2023 17:06,29-03-2024 12:35,NY,,A,N,N,N,N,O,M,Y,we
+620,F,,10472,Bronx,0,N,Y,B,Y,N,N,,,2,,16-12-2023 12:02,03-07-2024 19:48,NY,,A,N,N,N,N,O,B,Y,we
+625,,,91040,Sunland,0,Y,Y,B,N,N,N,,,1,,20-12-2023 12:25,16-09-2024 17:17,NY,,P,N,Y,N,N,G,M,Y,daily
+626,,,94043,Mountain View,0,N,Y,B,N,N,N,,,1,,20-12-2023 12:25,10-06-2024 16:02,NY,,P,N,Y,N,N,G,M,Y,daily
+627,,,91745,Hacienda heights,0,Y,Y,B,N,N,N,,,1,,20-12-2023 12:26,18-06-2024 17:50,NY,,P,N,Y,N,N,G,M,Y,daily
+628,,,91731,El Monte,0,N,Y,B,N,N,N,,,1,,20-12-2023 12:29,12-03-2024 11:43,NY,,P,N,Y,N,N,G,M,Y,daily
+629,,,10704,yonkers,0,N,Y,B,N,N,N,,,1,,20-12-2023 12:30,20-12-2023 12:30,NY,,P,N,N,N,N,O,M,Y,daily
+630,,,10704,yonkers,0,Y,Y,B,N,N,N,,,1,,20-12-2023 12:30,15-01-2025 13:05,NY,,P,N,Y,N,N,O,M,Y,daily
+631,,,10704,yonkers,0,N,Y,B,N,N,N,,,1,,21-12-2023 12:05,21-12-2023 12:05,NY,,P,N,N,N,N,O,M,Y,daily
+632,,,10704,yonkers,0,N,Y,B,N,N,N,,,1,,21-12-2023 12:05,21-12-2023 12:05,NY,,P,N,N,N,N,O,M,Y,daily
+633,,,10704,yonkers,0,N,Y,B,N,N,N,,,1,,21-12-2023 12:06,21-12-2023 12:06,NY,,P,N,N,N,N,O,M,Y,daily
+634,,,10704,yonkers,0,N,Y,B,N,N,N,,,1,,21-12-2023 12:07,21-12-2023 12:07,NY,,P,N,N,N,N,O,M,Y,daily
+638,F,,11580,Valley Stream,0,N,Y,B,Y,N,N,,,2,,02-01-2024 09:42,27-12-2024 06:15,NY,,A,N,N,N,N,O,H,Y,daily
+640,M,,11542,Glen Cove,0,Y,Y,B,Y,N,N,,,10,,03-01-2024 14:24,24-01-2025 11:22,NY,,A,N,N,N,N,O,M,Y,wd
+641,F,,11429,Jamaica ,0,N,Y,B,Y,N,N,,,2,,04-01-2024 08:51,03-09-2024 17:05,NY,,A,N,N,N,N,O,H,Y,wd
+643,M,,10455,Bronx,0,N,Y,B,N,Y,N,,,6,,10-01-2024 10:44,24-01-2025 08:23,NY,,A,N,N,N,N,O,M,Y,wd
+645,F,,10469,Bronx,0,Y,Y,B,N,N,N,,,2,,11-01-2024 12:36,25-07-2024 09:30,NY,,A,N,N,N,N,O,M,Y,daily
+662,M,,10453,Bronx,0,Y,Y,B,Y,N,N,,,2,,14-03-2024 09:31,24-01-2025 10:04,NY,,A,N,N,N,N,O,M,Y,daily
+663,F,,11208,Brooklyn,0,N,Y,B,Y,N,N,,,2,,15-03-2024 09:38,15-03-2024 09:45,NY,,A,N,N,N,N,O,M,Y,wd
+667,M,,10469,Bronx,0,N,Y,B,Y,N,N,,,2,,05-04-2024 08:45,25-07-2024 09:47,NY,,A,N,N,N,N,O,M,Y,daily
+668,F,,11203,Brooklyn,0,Y,Y,B,Y,N,N,,,2,,08-04-2024 11:09,21-01-2025 17:05,NY,,A,N,N,N,N,O,H,Y,daily
+670,,,10704,yonkers,0,N,Y,B,N,N,N,,,1,,12-04-2024 13:23,12-04-2024 13:35,NY,,P,N,Y,N,N,O,M,Y,daily
+674,M,,34120,Naples,0,N,Y,B,N,N,N,,,2,,23-04-2024 17:01,24-01-2025 11:45,NY,,A,N,N,N,N,O,B,Y,wd
+676,M,,11354,Flushing,0,N,Y,B,Y,N,N,,,2,,26-04-2024 13:20,11-07-2024 16:21,NY,,A,N,N,N,N,O,H,Y,we
+687,F,,10016,New York,0,N,Y,B,N,N,N,,,10,,08-05-2024 11:53,21-01-2025 16:26,NY,,A,N,N,N,N,O,H,Y,wd
+694,F,,11106,Queens,0,Y,N,B,N,N,N,,,2,,16-05-2024 08:57,29-06-2024 00:25,NY,,A,Y,N,N,N,O,H,Y,wd
+706,F,,11238,Brooklyn,0,N,Y,B,Y,N,N,,,6,,12-06-2024 12:02,24-01-2025 05:39,NY,,A,N,N,N,N,O,M,Y,daily
+710,F,,11221,Brooklyn,0,Y,Y,B,Y,N,N,,,10,,02-07-2024 10:51,24-01-2025 02:20,NY,,A,N,N,N,N,O,M,Y,wd
+714,M,,11414,Howard beach,0,Y,Y,B,Y,N,N,,,2,,09-07-2024 09:15,20-08-2024 09:39,NY,,A,N,N,N,N,O,M,Y,wd
+734,F,,11221,Brooklyn,0,N,Y,B,N,N,N,,,2,,11-09-2024 09:17,07-10-2024 16:10,NY,,A,N,N,N,N,O,H,Y,we
+738,F,,10705,Yonkers,0,Y,Y,B,Y,N,N,,,2,,09-10-2024 11:13,24-01-2025 09:38,NY,,A,N,N,N,N,O,B,Y,wd
+739,M,,10473,New York,0,N,Y,B,Y,N,N,,,1,,10-10-2024 08:31,24-01-2025 01:34,NY,,A,N,N,N,N,O,M,Y,daily
+742,M,,10029,New York,0,Y,Y,B,Y,N,N,,,2,,16-10-2024 09:37,24-01-2025 09:04,NY,,A,N,N,N,N,O,B,Y,wd
+749,F,,8857,Old Bridge,0,N,Y,B,Y,N,N,,,2,,06-11-2024 08:39,24-01-2025 11:52,NY,,A,N,N,N,N,O,B,Y,wd
+754,F,,10462,Bronx,0,N,Y,B,Y,N,N,,,10,,19-11-2024 11:42,26-11-2024 21:48,NY,,A,N,N,N,N,O,M,Y,we
+769,F,,10535,Jefferson valley,0,N,Y,B,N,N,N,,,1,,07-01-2025 09:25,24-01-2025 09:14,NY,,A,N,N,N,N,O,M,Y,wd
+770,F,,11413,Queens,0,N,N,B,Y,N,N,,,1,,08-01-2025 10:18,17-01-2025 14:56,NY,,A,Y,N,N,N,O,B,Y,wd
+774,M,,11575,Roosevelt,0,N,Y,B,N,N,N,,,2,,21-01-2025 10:19,24-01-2025 08:30,NY,,A,N,N,N,N,O,M,Y,wd
+188,F,,10928,Highland falls trailer 86,0,N,Y,D,Y,Y,N,,,1,0,25-11-2020 11:09,24-01-2025 11:29,NY and NJ,,A,Y,N,N,N,O,,,
+88,,,7504,Paterson ,0,Y,Y,B,Y,Y,Y,Y,,2,0,08-10-2018 18:23,29-01-2020 12:12,NY NJ ,,A,,N,N,N,O,,,
+132,M,,7628,Dumont,0,Y,Y,B,Y,Y,Y,,,10,0,23-11-2019 12:14,01-01-2025 11:15,NY NJ ,,A,N,N,N,N,O,,,
+153,M,,10031,Manhattan ,0,Y,Y,B,Y,Y,Y,,,6,0,03-01-2020 14:39,24-01-2025 12:13,"NY, Brooklyn, Bronx ",361,A,N,N,N,N,O,,,
+48,,,11205,Brooklyn,0,Y,Y,,Y,,,,Y,2,50,30-06-2017 10:11,03-02-2020 12:27,NYC,,A,,N,N,N,O,,,
+66,,,11214,Brooklyn,0,N,N,,Y,,,,N,1,10,23-03-2018 19:29,25-05-2018 19:40,NYC,,A,,N,N,N,O,,,
+90,,,10009,New York ,0,Y,Y,B,N,,,,,5,0,17-10-2018 10:58,29-01-2020 12:06,NYC,,A,,N,N,N,O,,,
+129,F,,19007,Bristol,0,Y,Y,B,Y,N,N,,,10,0,08-11-2019 09:35,07-10-2022 16:41,NYC,,A,N,N,N,N,O,,,
+182,M,,7628,Dumont,0,Y,Y,B,Y,Y,N,,,10,0,02-09-2020 12:40,27-06-2022 15:18,NYC,,A,N,N,N,N,O,,,
+196,F,,7047,North Bergen ,0,N,Y,D,N,N,N,,,10,0,07-01-2021 14:55,27-01-2022 13:59,NYC,,A,Y,N,N,N,O,,,
+317,F,,10470,Bronx,0,Y,Y,D,Y,Y,N,,,6,,14-02-2022 12:42,27-06-2022 15:07,NYC,,A,N,N,N,N,O,,,
+352,F,,10038,New York,0,N,Y,B,N,N,N,,,10,,13-07-2022 15:47,24-01-2025 11:00,NYC,,A,N,N,N,N,O,H,Y,wd
+483,,,80122,Centennial,0,N,Y,B,Y,N,N,,,6,,20-03-2023 11:09,11-01-2024 14:09,NYC,,P,N,Y,N,N,G,M,Y,daily
+514,,,10704,yonkers,0,Y,Y,B,Y,N,N,,,2,,04-05-2023 16:45,28-10-2023 12:24,NYC,,P,N,N,N,N,O,H,Y,wd
+516,M,,10704,Yonkers,0,N,Y,B,N,N,N,,,0,,15-05-2023 13:42,20-05-2023 15:00,NYC,,P,N,N,N,N,O,M,Y,we
+36,,,10040,NEW YORK CITY,0,Y,Y,,N,,,,N,5,50,05-06-2017 11:39,08-02-2021 11:52,NYC ,,A,,N,N,N,O,,,
+43,,,8854, PISCATAWAY,0,N,Y,,Y,,,,N,2,10,11-06-2017 18:42,18-02-2020 13:31,NYC ,,A,,N,N,N,O,,,
+50,F,,11003,Elmont ,0,N,Y,,Y,N,N,,N,6,100,06-07-2017 11:20,23-01-2025 06:55,NYC BK Queens ,,A,N,N,N,N,O,,,
+191,M,,10458,Bronx,0,Y,Y,B,Y,Y,Y,,,6,0,03-12-2020 15:40,27-06-2022 15:17,NYC Brooklyn Bronx,,A,Y,N,N,N,O,,,
+39,,,11358,Flushing ,0,Y,Y,,Y,,,,N,10,50,05-06-2017 12:11,08-02-2021 13:18,NYC QNS,,A,,N,N,N,O,,,
+99,F,,11223,Brooklyn,0,Y,Y,B,Y,Y,Y,,,2,0,03-12-2018 13:13,20-10-2021 16:48,"NYC, BK, MANHATTAN, QUEENS",,A,N,N,N,N,O,,,
+179,F,,10607,White Plains,0,Y,Y,B,Y,Y,N,,,2,0,24-08-2020 16:30,27-01-2022 13:41,"NYC, Bronx , Westchester",,A,Y,N,N,N,O,,,
+102,F,,10456,Bronx,0,Y,Y,B,Y,Y,Y,Y,,10,0,24-12-2018 10:28,23-01-2023 18:08,"NYC, Bronx, Yonkers, BK, Richmond, Westchester",,A,N,N,N,N,O,,,
+180,F,,10463,Bronx,0,N,Y,D,N,Y,N,,,6,0,02-09-2020 11:38,03-04-2024 15:28,"NYC, BX, NJ, Qns, Brooklyn",,P,N,N,N,N,O,,,
+63,F,,10460,Bronx ,0,N,Y,,Y,,,,N,2,50,09-03-2018 12:56,08-02-2021 11:56,NYC-Bronx ,,A,,N,N,N,O,,,
+374,F,,43123,Grove city,0,N,Y,B,Y,N,N,,,6,,18-08-2022 16:38,01-11-2024 10:12,OH,,A,N,N,N,N,O,M,Y,daily
+383,F,,43201,Columbus,0,Y,Y,B,Y,Y,N,,,6,,27-08-2022 09:40,25-10-2022 10:38,OH,,A,N,N,N,N,O,M,N,wd
+136,M,Y,10019,New York ,0,Y,Y,D,Y,Y,N,,,6,0,03-12-2019 10:27,21-09-2022 13:55,only Manhattan ,,A,N,N,N,N,O,,,
+186,F,a,7105,Newark,0,N,Y,D,N,N,N,,,1,0,03-11-2020 11:06,10-01-2023 21:13,only NJ ,,A,Y,N,N,N,O,,,
+283,F,,32701,Altamonte Springs,0,N,Y,D,Y,Y,N,,,0,,13-10-2021 11:17,06-10-2023 16:17,Orange and Seminole County,,A,N,N,N,N,O,,,
+271,F,,32819,Orlando,0,Y,Y,B,Y,Y,Y,,,10,,16-09-2021 14:57,08-07-2022 13:40,Orlando,,A,N,N,N,N,O,,,
+320,F,,32827,orlando,0,N,N,D,Y,Y,N,,,10,,23-02-2022 10:39,15-08-2022 18:38,Orlando,,A,N,N,N,N,O,,,
+325,F,,32828,Orlando,0,N,Y,B,Y,N,N,,,2,,14-03-2022 16:05,01-02-2023 14:44,Orlando,,A,N,N,N,N,O,M,Y,wd
+336,M,,32803,Orlando,0,N,Y,B,N,N,N,,,2,,15-05-2022 17:05,08-01-2024 12:51,Orlando,,A,N,N,N,N,O,M,Y,wd
+190,M,,32810,Orlando,0,N,Y,D,Y,Y,N,,,10,0,25-11-2020 12:05,22-06-2022 10:50,Orlando FL,,A,Y,N,N,N,O,,,
+217,M,,33323,Sunrise,0,Y,N,B,Y,Y,Y,,,2,0,10-05-2021 11:28,30-05-2023 16:53,Other,591,A,Y,N,N,N,O,,,
+219,F,,75231,Dallas,0,N,N,D,N,Y,N,,,6,0,21-05-2021 11:31,27-06-2022 15:15,Other,587,P,Y,N,N,N,O,,,
+221,F,,11377,New York ,0,Y,Y,B,Y,Y,Y,,,6,0,24-05-2021 16:45,04-05-2023 16:46,Other,,P,N,N,N,N,G,,,
+240,,,11377,New York,0,Y,Y,,,N,N,,,0,0,07-07-2021 21:03,23-02-2024 15:43,Other,,P,Y,Y,N,N,G,,,
+264,F,,10704,Yonkers,0,N,Y,D,N,Y,N,,,2,0,07-09-2021 09:44,10-12-2021 19:36,Other,,P,Y,N,N,N,O,,,
+269,,,33917,north fort myers,0,Y,Y,B,Y,Y,Y,,,10,,14-09-2021 10:24,27-06-2022 15:09,Other,,P,N,N,N,N,O,,,
+279,F,,30034,decatur,0,Y,Y,B,Y,N,N,,,1,,04-10-2021 16:35,14-06-2022 16:58,Other,,A,N,N,N,N,O,,,
+236,M,,19053,Feasterville,0,N,Y,,,N,N,,,0,0,07-07-2021 21:02,02-11-2024 10:35,PA,,P,N,Y,N,N,G,,,
+369,F,,18826,Kingsley,0,N,Y,B,Y,N,N,,,2,,13-08-2022 09:44,23-09-2022 18:58,PA,,A,N,N,N,N,O,B,Y,daily
+435,F,,19134,Philadelphia,0,N,Y,B,Y,N,N,,,2,,11-11-2022 09:10,11-11-2022 12:14,PA,,A,N,N,N,N,O,B,Y,wd
+655,F,,19003,Ardmore,0,N,Y,B,Y,N,N,,,6,,14-02-2024 13:53,12-01-2025 13:25,PA,,A,N,N,N,N,O,M,Y,we
+660,F,,19144,Philadelphia,0,N,Y,B,Y,N,N,,,1,,07-03-2024 09:47,25-06-2024 17:13,PA,,A,N,N,N,N,O,M,Y,wd
+664,M,,19151,Philapelphia,0,N,N,B,N,N,N,,,2,,21-03-2024 09:20,08-06-2024 17:59,PA,,A,Y,N,N,N,O,M,Y,wd
+665,M,,19138,Philadelphia,0,N,Y,B,Y,N,N,,,0,,22-03-2024 12:25,25-07-2024 09:30,PA,,A,N,N,N,N,O,M,Y,wd
+721,M,,19053,Feasterville,0,N,Y,B,N,N,N,,,2,,19-07-2024 12:12,24-01-2025 12:05,PA,,A,N,N,N,N,O,M,Y,daily
+758,F,,19148,Philadelphia,0,N,Y,B,Y,N,N,,,2,,11-12-2024 12:57,24-01-2025 10:15,PA,,A,N,N,N,N,O,H,Y,wd
+776,F,,19512,Boyertown,0,Y,Y,B,N,N,N,,,10,,23-01-2025 08:12,23-01-2025 08:20,PA,,A,N,N,N,N,O,M,Y,daily
+154,M,,19138,Philadelphia ,0,Y,Y,B,Y,Y,Y,,,5,0,06-01-2020 14:40,07-04-2021 11:05,Philadelphia ,,A,Y,N,N,N,O,,,
+530,M,,11368,Corona,0,N,Y,B,N,N,N,,,2,,03-07-2023 11:31,10-01-2024 15:18,Queens,,A,N,N,N,N,O,H,Y,daily
+119,F,,11362,Little Neck ,0,N,Y,D,Y,N,N,,,10,0,17-05-2019 17:23,29-11-2023 12:56,queens and Long Island,,A,N,N,N,N,O,,,
+81,,,11378,Maspeth,0,N,Y,,N,,,,Y,5,50,08-06-2018 10:41,31-01-2020 19:15,queens and most of Brooklyn,,A,,N,N,N,O,,,
+239,M,,34120,Naples,0,N,Y,,,N,N,,,0,0,07-07-2021 21:03,15-01-2025 11:22,Queens Bronx,,P,Y,Y,N,N,G,,,
+275,,,10039,new york,0,N,Y,,Y,N,N,,,2,,21-09-2021 12:23,15-01-2025 13:15,Queens NY,,A,Y,Y,N,N,G,,,
+147,M,,6804,Brookfield,0,Y,Y,B,Y,N,N,,,10,0,24-12-2019 11:29,24-01-2025 10:17,"Queens, Brooklyn ",349,A,N,Y,N,N,O,,,
+74,,,11418,Richmond Hill,0,Y,Y,,Y,,,,N,10,100,24-05-2018 14:01,31-01-2020 19:33,"Queens, Brooklyn, Manhattan",,A,,N,N,N,O,,,
+98,F,,11429,Queens Village,0,N,N,D,Y,Y,Y,,,2,0,20-11-2018 11:11,08-02-2021 13:25,"Queens, Brooklyn, Manhattan, Bronx",,A,,N,N,N,O,,,
+316,M,,11224,brooklyn,0,N,Y,D,N,N,N,,,1,,09-02-2022 12:21,03-03-2022 14:42,"Queens, Kings & Long Island",,A,N,N,N,N,O,,,
+362,M,,11355,flushing Main Street,0,Y,Y,B,Y,N,N,,,2,,01-08-2022 14:33,07-08-2024 18:57,"queens, Long Island",3301,P,N,N,N,N,O,B,Y,wd
+113,,,11106,Long Island city,0,N,Y,D,Y,Y,N,,,2,0,29-03-2019 10:33,01-11-2024 10:11,"Queens, Manhattan, Brooklyn ",,A,N,N,N,N,O,,,
+114,,,11377,Woodside,0,Y,Y,B,Y,Y,,,,5,0,09-04-2019 13:12,08-02-2021 11:54,"Queens, Manhattan, Brooklyn ",,A,,N,N,N,O,,,
+164,F,,11204,BROOKLYN,0,Y,Y,B,Y,Y,N,,,6,0,14-02-2020 16:43,27-06-2022 15:19,"Queens, NYC, Brooklyn",,A,Y,N,N,N,O,,,
+307,F,,75252,Dallas,0,Y,Y,D,N,N,N,,,2,,24-01-2022 14:44,29-02-2024 12:37,San Antonio,,P,N,Y,N,N,G,M,,
+333,F,,78252,San Antonio,0,N,Y,B,N,N,N,,,10,,27-04-2022 10:40,09-05-2022 11:26,San Antonio TX,,A,N,N,N,N,O,M,Y,daily
+53,,,92109,San Diego,0,N,Y,,N,,,,Y,10,50,01-09-2017 12:28,10-06-2020 17:25,San Diego,,A,,N,N,N,O,,,
+54,,,92122,San diego,0,N,Y,,Y,,,,Y,2,50,05-09-2017 12:32,03-02-2020 12:16,San Diego,,A,,N,N,N,O,,,
+55,F,,92130,SAN DIEGO,0,N,Y,,Y,N,N,,N,5,100,05-09-2017 12:38,30-11-2021 13:43,San Diego,,A,N,Y,N,N,O,,,
+557,,,29745,york,0,N,Y,B,N,N,N,,,2,,07-08-2023 10:03,07-08-2023 09:30,SC,4326,P,N,N,N,N,O,B,Y,wd
+563,,,29745,york,0,Y,Y,B,Y,N,N,,,6,,14-08-2023 13:28,14-08-2023 13:25,SC,4369,P,N,N,N,N,O,M,Y,wd
+745,F,,29304,Charleston,0,Y,Y,B,Y,N,N,,,10,,23-10-2024 10:51,08-11-2024 16:42,SC,,A,N,N,N,N,O,M,Y,daily
+157,F,,8360,Vineland ,0,Y,Y,B,Y,Y,Y,,,6,0,16-01-2020 15:51,14-07-2022 15:29,South Jersey and Philadelphia ,,A,Y,N,N,N,O,,,
+256,F,,34747,Orlando,0,Y,Y,,Y,Y,Y,,,2,0,18-08-2021 13:08,06-02-2024 12:16,Tampa,,P,N,Y,N,N,G,,,
+34,M,,10954,Nanuet,0,Y,N,,N,N,N,,Y,1,10,10-05-2017 10:15,13-01-2025 11:43,TEST ,,A,N,N,N,N,O,,,
+244,F,,76063,Mansfield,0,Y,Y,B,Y,Y,Y,,,2,0,17-07-2021 13:50,14-07-2022 14:22,Texas,,A,Y,N,N,N,O,,,
+257,,,77091,Houston,0,Y,Y,B,Y,Y,Y,,,2,0,19-08-2021 13:27,19-08-2021 13:27,Texas,,P,N,N,N,N,O,,,
+258,F,,77494,Katy,0,N,Y,D,Y,N,N,,,2,0,19-08-2021 14:24,07-03-2022 12:01,Texas,,A,Y,N,N,N,O,,,
+261,F,,75010,Carrollton,0,N,Y,D,Y,Y,N,,,10,0,30-08-2021 11:49,07-03-2022 11:59,Texas,,A,N,N,N,N,O,,,
+266,F,,75243,Dallas,0,Y,Y,B,Y,Y,Y,,,0,,07-09-2021 14:06,07-03-2022 11:57,Texas,,P,Y,N,N,N,O,,,
+270,M,,75243,dallas,0,N,Y,D,Y,Y,N,,,0,,14-09-2021 10:56,07-03-2022 11:55,Texas,,A,N,N,N,N,O,,,
+277,F,,75060,Irving,0,N,Y,D,Y,Y,N,,,0,,23-09-2021 12:57,23-04-2022 12:37,Texas,,A,Y,N,N,N,O,,,
+282,F,,75167,Waxahachie,0,N,Y,D,N,Y,N,,,2,,06-10-2021 10:49,24-02-2023 10:00,Texas,,A,Y,N,N,N,O,,,
+292,F,,76039,Euless,0,Y,Y,D,N,Y,N,,,2,,15-11-2021 13:13,22-01-2025 08:31,Texas,,A,N,N,N,N,O,,,
+293,M,,75068,Little Elm,0,Y,Y,B,N,N,N,,,2,,03-12-2021 14:16,24-01-2025 11:47,Texas,,A,N,N,N,N,O,,,
+380,F,,38017,Collierville,0,Y,Y,B,Y,N,N,,,10,,26-08-2022 11:15,22-11-2022 09:14,TN,,A,N,N,N,N,O,M,N,wd
+440,F,,38106,Memphis,0,Y,Y,B,Y,N,N,,,2,,22-11-2022 12:34,16-02-2023 12:38,TN,,A,N,N,N,N,O,B,Y,wd
+555,M,,37207,Chattanooga,0,N,Y,B,Y,N,N,,,1,,01-08-2023 13:23,03-06-2024 17:27,TN,,A,N,N,N,N,O,B,Y,daily
+574,F,,37188,white house,0,Y,Y,B,Y,N,N,,,10,,12-09-2023 10:53,26-12-2023 08:22,TN,,A,N,N,N,N,O,B,Y,daily
+646,F,,38341,Holladay,0,Y,Y,B,Y,N,N,,,10,,12-01-2024 10:08,20-02-2024 16:20,TN,,A,N,N,N,N,O,B,Y,daily
+773,F,,37130,Murfreesboro,0,Y,Y,B,N,N,N,,,10,,21-01-2025 09:05,21-01-2025 13:08,TN,,A,N,N,N,N,O,M,Y,daily
+140,M,,76039,Euless,0,Y,Y,B,Y,N,N,,,6,0,13-12-2019 13:46,24-01-2025 08:33,TX,,A,N,N,N,N,O,,,
+237,M,,75248,Dallas,0,Y,N,,,N,N,,,0,0,07-07-2021 21:02,15-01-2025 10:59,TX,,P,N,Y,N,N,G,,,
+268,F,,76051,grapevine,0,N,Y,D,Y,Y,N,,,10,,14-09-2021 09:50,27-06-2022 15:12,TX,,A,N,N,N,N,O,,,
+295,M,,76039,Euless,0,N,N,B,N,N,N,,,6,,13-12-2021 14:46,21-09-2023 17:50,TX,,A,N,N,N,N,O,,,
+356,F,,78612,Cedar Creek,0,Y,Y,B,Y,N,N,,,10,,26-07-2022 14:05,19-07-2023 22:47,TX,,A,N,N,N,N,O,H,Y,daily
+364,F,,77384,Conroe,0,Y,Y,B,N,Y,N,,,10,,05-08-2022 14:12,21-08-2022 11:22,TX,,A,N,N,N,N,O,M,Y,wd
+366,M,,78728,Austin,0,N,Y,B,N,N,N,,,10,,09-08-2022 15:35,10-10-2022 13:43,TX,,A,N,N,N,N,O,H,Y,daily
+368,F,,77450,Katy,0,N,Y,B,Y,N,N,,,2,,12-08-2022 11:39,30-07-2024 18:59,TX,,A,N,N,N,N,O,M,Y,wd
+371,F,,78886,Yancey,0,N,Y,B,N,N,N,,,10,,13-08-2022 17:50,22-11-2024 09:37,TX,,A,N,N,N,N,O,M,Y,daily
+375,F,,78109,Converse,0,N,Y,B,Y,N,N,,,2,,20-08-2022 12:52,22-11-2022 09:16,TX,,A,N,N,N,N,O,B,Y,daily
+377,F,,78009,Castroville,0,N,Y,B,Y,N,N,,,2,,22-08-2022 16:33,12-11-2022 12:19,TX,,A,N,N,N,N,O,M,Y,we
+382,F,,77373,Spring,0,N,Y,B,N,Y,N,,,6,,27-08-2022 09:03,12-06-2023 22:23,TX,,A,N,N,N,N,O,H,Y,
+384,M,,75211,Dallas,0,N,Y,B,N,N,N,,,1,,27-08-2022 11:12,24-11-2022 21:00,TX,,A,N,N,N,N,O,H,Y,daily
+389,F,,77450,Katy,0,Y,Y,B,Y,N,N,,,10,,03-09-2022 12:07,24-01-2025 10:19,TX,,A,N,N,N,N,O,M,Y,daily
+391,F,,77082,Houston,0,N,Y,B,Y,N,N,,,2,,13-09-2022 10:59,25-07-2024 09:13,TX,,A,N,N,N,N,O,B,Y,wd
+392,F,,75214,Dallas,0,Y,Y,B,N,N,N,,,10,,13-09-2022 12:02,02-08-2023 15:51,TX,,A,N,N,N,N,O,H,Y,wd
+393,F,,77339,Houston,0,N,Y,B,Y,N,N,,,10,,13-09-2022 16:15,28-05-2024 13:40,TX,,A,N,N,N,N,O,B,Y,wd
+394,F,,77072,Houston,0,Y,Y,B,Y,N,N,,,6,,14-09-2022 09:36,14-09-2022 09:43,TX,,A,N,N,N,N,O,M,Y,wd
+420,F,,76118,Richland Hills,0,Y,Y,B,Y,N,N,,,6,,18-10-2022 14:10,22-02-2023 14:24,TX,,A,N,N,N,N,O,M,Y,daily
+421,F,,78723,Austin,0,N,Y,B,N,N,N,,,1,,18-10-2022 16:29,23-10-2022 10:06,TX,,A,N,N,N,N,O,B,Y,wd
+427,,,77450,KAty,0,Y,Y,B,N,N,N,,,2,,21-10-2022 17:10,05-08-2024 20:56,TX,,P,N,Y,N,N,G,M,N,daily
+434,F,,75115,Desoto,0,Y,Y,B,Y,N,N,,,6,,08-11-2022 11:05,30-03-2023 10:48,TX,,A,N,N,N,N,O,B,Y,wd
+445,F,,77423,Pattison,0,N,Y,B,N,N,N,,,2,,13-12-2022 14:51,12-02-2023 19:55,TX,,A,N,N,N,N,O,B,Y,daily
+446,F,,75401,Greenville,0,Y,Y,B,N,N,N,,,2,,14-12-2022 12:26,26-07-2024 12:13,TX,,A,N,N,N,N,O,H,Y,wd
+447,F,,76028,Burleson,0,Y,Y,B,N,N,N,,,6,,14-12-2022 14:47,21-01-2025 16:32,TX,,A,N,N,N,N,O,H,Y,daily
+458,F,,75161,Terrell,0,N,Y,B,N,N,N,,,10,,23-12-2022 11:55,23-10-2024 16:16,TX,,A,N,N,N,N,O,M,Y,daily
+467,F,,75156,Mabank,0,Y,Y,B,Y,N,N,,,10,,18-01-2023 15:08,10-05-2024 22:48,TX,,A,N,N,N,N,O,M,Y,daily
+477,M,,75209,Dallas,0,N,Y,B,N,N,N,,,6,,03-03-2023 09:17,22-03-2024 16:46,TX,,A,N,N,N,N,O,B,N,daily
+478,F,,76182,North Richland Hills ,0,Y,Y,B,Y,N,N,,,10,,07-03-2023 10:56,01-04-2023 17:34,TX,,A,N,N,N,N,O,B,Y,wd
+479,F,,76262,Roanoke,0,Y,Y,B,Y,N,N,,,2,,08-03-2023 13:37,04-04-2023 15:39,TX,,A,N,N,N,N,O,B,Y,wd
+495,F,,78617,Delvalle,0,N,Y,B,N,N,N,,,1,,04-04-2023 14:38,15-01-2025 10:58,TX,,P,N,Y,N,N,G,H,N,daily
+506,F,,75287,dallas,0,Y,Y,B,Y,N,N,,,6,,12-04-2023 09:55,24-01-2025 12:09,TX,,A,N,N,N,N,O,B,Y,wd
+525,F,,78748,Austin,0,N,Y,B,Y,N,N,,,2,,22-06-2023 09:23,25-10-2023 16:39,TX,,A,N,N,N,N,O,B,Y,wd
+542,,,78728,austin,0,Y,Y,B,N,N,N,,,10,,26-07-2023 09:50,26-07-2023 09:50,TX,4263,P,N,N,N,N,O,B,Y,wd
+560,M,,78628,Georgetown,0,N,Y,B,N,N,N,,,2,,09-08-2023 10:13,24-01-2025 12:12,TX,,A,N,N,N,N,O,B,Y,daily
+578,F,,75252,Dallas,0,Y,Y,B,Y,N,N,,,6,,19-09-2023 16:23,28-02-2024 15:44,TX,,A,N,N,N,N,O,B,Y,daily
+589,F,,76132,Fort Worth,0,N,Y,B,N,N,N,,,6,,20-09-2023 13:56,21-05-2024 21:18,TX,,A,N,N,N,N,O,B,Y,daily
+656,F,,75068,Little Elm,0,N,Y,B,N,N,N,,,2,,14-02-2024 16:50,15-03-2024 20:48,TX,,A,N,N,N,N,O,M,Y,wd
+657,F,,77064,Houston,0,N,Y,B,Y,N,N,,,2,,14-02-2024 17:16,24-01-2025 07:08,TX,,A,N,N,N,N,O,M,Y,daily
+659,F,,75072,Mckinney,0,N,Y,B,N,N,N,,,2,,16-02-2024 13:29,02-03-2024 07:56,TX,,A,N,N,N,N,O,M,Y,wd
+680,F,,78734,Austin,0,N,Y,B,Y,N,N,,,2,,01-05-2024 10:40,24-01-2025 11:20,TX,,A,N,N,N,N,O,B,Y,daily
+690,F,,78641,Leander,0,N,Y,B,Y,N,N,,,10,,15-05-2024 09:11,14-01-2025 15:11,TX,,A,N,N,N,N,O,M,Y,wd
+703,F,,77009,Houston,0,N,Y,B,Y,N,N,,,10,,07-06-2024 09:10,29-07-2024 10:12,TX,,A,N,N,N,N,O,B,Y,wd
+717,F,,77494,Brookshire,0,N,Y,B,N,N,N,,,6,,16-07-2024 09:34,31-07-2024 13:55,TX,,A,N,N,N,N,O,B,Y,daily
+718,M,,77388,Spring,0,Y,Y,B,Y,N,N,,,10,,16-07-2024 10:42,03-08-2024 10:20,TX,,A,N,N,N,N,O,M,Y,wd
+720,F,,77062,Houston,0,N,Y,B,Y,N,N,,,10,,19-07-2024 09:18,06-11-2024 10:44,TX,,A,N,N,N,N,O,M,Y,wd
+760,,,78681,round rock,0,N,Y,B,N,N,N,,,2,,16-12-2024 11:49,16-12-2024 11:49,TX,,P,N,N,N,N,O,M,Y,daily
+761,F,,78748,Austin,0,N,Y,B,N,N,N,,,2,,16-12-2024 12:02,17-12-2024 11:33,TX,,A,N,N,N,N,O,M,Y,daily
+768,F,,77479,Sugar Land,0,N,Y,B,Y,N,N,,,10,,06-01-2025 11:21,23-01-2025 11:24,TX,,A,Y,N,N,N,O,M,Y,daily
+297,F,,7203,Roselle,0,N,Y,D,Y,Y,N,,,2,,20-12-2021 14:55,23-01-2025 03:34,Union NJ,,A,N,N,N,N,O,,,
+615,F,,84054,North Salt Lake,0,N,Y,B,Y,N,N,,,2,,13-12-2023 10:32,09-01-2025 19:48,UT,,A,N,N,N,N,O,M,Y,wd
+561,F,,23455,Virginia beach,0,N,Y,B,Y,N,N,,,2,,10-08-2023 11:43,03-04-2024 16:19,VA,,A,N,N,N,N,O,B,Y,wd
+598,F,,24502,Lynchburg,0,N,Y,B,N,N,N,,,6,,11-10-2023 11:07,23-11-2023 10:01,VA,,A,N,N,N,N,O,M,Y,daily
+648,F,,22204,Arlington,0,Y,Y,B,Y,N,N,,,6,,18-01-2024 10:06,17-02-2024 17:34,VA,,A,N,N,N,N,O,M,Y,daily
+735,F,,22309,Alexandria,0,Y,Y,B,N,N,N,,,10,,13-09-2024 09:30,22-01-2025 14:14,VA,,A,N,N,N,N,O,B,Y,daily
+748,F,,23227,Richmond,0,Y,Y,B,N,N,N,,,10,,04-11-2024 11:48,24-01-2025 03:32,VA,,A,N,N,N,N,O,B,Y,wd
+73,F,,12601,Poughkeepsie,0,Y,Y,,Y,N,N,,N,10,100,27-04-2018 18:06,26-01-2022 07:37,Westchester,,A,N,N,N,N,O,,,
+75,F,,10550,Mt.Vernon,0,Y,N,,N,N,N,,Y,2,50,24-05-2018 16:18,28-06-2022 15:29,Westchester,,A,N,N,N,N,O,,,
+226,M,,10701,Yonkers,0,Y,Y,B,Y,N,N,,,6,0,15-06-2021 11:30,30-12-2024 16:57,Westchester + CT ,,A,N,Y,N,N,G,,,
+298,M,,10704,Yonkers,0,Y,Y,B,Y,Y,N,,,10,,24-12-2021 14:12,27-04-2022 14:19,Westchester and Bronx,,A,N,N,N,N,G,,,
+77,,,10550,Mount vernon,0,Y,Y,,Y,,,,N,5,50,25-05-2018 22:51,08-02-2021 11:58,"Westchester, Bronx ",,A,,N,N,N,O,,,
+83,M,,10704,Yonkers,0,Y,N,,N,,,,Y,2,10,14-06-2018 17:47,17-08-2020 17:48,Westchester.NY,,A,,N,N,N,O,,,
+37,,,6825,FAIRFIELD,0,N,Y,,Y,,,,N,2,50,05-06-2017 11:40,08-02-2021 11:53,,,A,,N,N,N,O,,,
+38,,,11235,BROOKLYN,0,N,Y,,Y,,,,Y,1,10,05-06-2017 11:40,28-05-2019 14:43,,,A,,N,N,N,O,,,
+42,,,20747,DISTRICT HEIGHTS,0,N,Y,,Y,,,,Y,2,10,07-06-2017 12:15,07-12-2017 14:11,,,A,,N,N,N,O,,,
+44,,,11221,BROOKLYN,0,N,Y,,N,,,,N,10,10,16-06-2017 08:52,07-12-2017 14:12,,,A,,N,N,N,O,,,
+45,,,10704,Yonkers ,0,N,Y,,N,,,,N,5,10,26-06-2017 08:45,07-12-2017 14:13,,,A,,N,N,N,O,,,
+46,,,7047,north bergen,0,N,Y,,Y,,,,Y,2,100,26-06-2017 20:57,12-02-2018 13:43,,,A,,N,N,N,O,,,
+47,,,11203,Brooklyn,0,N,Y,,Y,,,,Y,2,50,26-06-2017 20:57,07-12-2017 14:08,,,A,,N,N,N,O,,,
+49,M,,7010,Cliffside Park,0,Y,Y,,Y,N,N,,N,6,50,03-07-2017 14:38,11-07-2023 13:12,,,A,N,N,N,N,O,,,
+51,,,11778,Rocky Point ,0,N,Y,,Y,,,,N,2,100,07-07-2017 10:01,03-02-2020 12:23,,,A,,N,N,N,O,,,
+58,,,7095,Woodbridge,0,N,Y,,Y,,,,N,5,100,16-11-2017 18:00,25-05-2018 19:40,,,A,,N,N,N,O,,,
+71,,,10704,Yonkers,0,N,Y,,Y,,,,N,10,100,21-04-2018 11:00,02-02-2020 13:09,,,A,,N,N,N,O,,,
+82,M,,10704,yonkers,0,Y,Y,,N,N,N,,Y,10,10,08-06-2018 16:11,18-01-2025 19:22,,,A,N,N,N,N,O,H,,
+84,F,,10712,Port Charlotte,0,Y,Y,,Y,N,N,,N,10,50,19-06-2018 11:35,24-01-2025 10:24,,,A,N,N,N,N,G,M,Y,
+107,,,11209,Brooklyn,0,Y,Y,D,Y,Y,,,,1,0,19-02-2019 13:53,29-01-2020 00:43,,,A,,N,N,N,O,,,
+110,M,,10704,yonkers,0,Y,Y,B,Y,Y,Y,,,2,0,11-03-2019 10:11,09-02-2023 09:45,,,A,N,N,N,N,O,,,
+111,F,,10021,New York,0,N,Y,D,N,,,,,10,0,25-03-2019 16:00,05-02-2020 20:39,,,A,,N,N,N,O,,,
+115,F,,10704,new york,0,Y,Y,D,Y,Y,N,,,1,0,09-04-2019 13:45,23-01-2025 13:12,,,A,N,Y,N,N,O,,,
+116,,,7306,Jersey City ,0,N,Y,D,Y,Y,,,,10,0,22-04-2019 20:31,07-05-2020 19:58,,239,A,,N,N,N,O,,,
+121,F,,7405,Butler,0,N,Y,D,Y,Y,N,Y,,10,0,12-06-2019 16:05,12-08-2022 10:33,,252,A,N,N,N,N,O,,,
+122,,,7005,Boonton ,0,N,Y,B,Y,Y,Y,Y,,10,0,25-07-2019 14:37,21-09-2022 13:57,,,A,N,N,N,N,O,,,
+124,,,7306,Jersey  City ,0,Y,Y,B,Y,Y,Y,,,10,0,26-09-2019 13:47,07-05-2020 20:00,,,A,,N,N,N,O,,,
+127,M,,7010,new jersey,0,Y,Y,B,Y,Y,Y,,,2,0,29-10-2019 13:37,08-01-2024 12:53,,,P,N,N,N,N,O,,,
+128,F,,11754,Kings Park ,0,N,Y,D,Y,Y,,,,2,0,06-11-2019 12:36,08-02-2021 15:38,,,A,,N,N,N,O,,,
+130,F,,11101,Long Island city,0,Y,Y,B,Y,Y,Y,,,5,0,08-11-2019 09:37,28-03-2021 09:36,,,A,N,N,N,N,O,,,
+131,F,,10473,Bronx,0,N,Y,B,N,N,N,,,6,0,12-11-2019 15:01,02-05-2024 16:02,,,A,N,N,N,N,O,,,
+133,F,,7631,Englewood ,0,N,Y,D,Y,Y,N,,,1,0,25-11-2019 09:46,05-04-2023 10:53,,,A,N,N,N,N,O,,,
+135,,Y,7522,Paterson ,0,N,Y,D,Y,Y,,,,2,0,26-11-2019 18:05,23-01-2020 15:04,,,P,,N,N,N,O,,,
+137,,,10027,New York ,0,N,Y,D,N,N,N,,,6,0,03-12-2019 11:48,21-09-2022 13:54,,,R,N,N,N,N,O,,,
+139,,Y,34758,Kissimmee,0,N,Y,B,Y,Y,Y,Y,,5,0,12-12-2019 16:13,17-02-2020 16:02,,331,P,,N,N,N,O,,,
+144,F,Y,11580,Valley stream ,0,Y,Y,B,Y,Y,Y,Y,,10,0,20-12-2019 14:40,21-09-2022 13:53,,,A,N,N,N,N,O,,,
+145,,,7095,Woodbridge ,0,N,Y,D,Y,Y,,,,5,0,23-12-2019 11:13,23-01-2020 09:40,,347,A,,N,N,N,O,,,
+146,,Y,7109,BELLEVILLE,0,N,Y,D,N,,,,,2,0,23-12-2019 11:46,17-02-2020 13:59,,342,A,,N,N,N,O,,,
+148,,,95112,San Jose,0,Y,Y,B,Y,Y,Y,Y,,10,0,24-12-2019 14:43,17-02-2020 17:47,,295,A,,N,N,N,O,,,
+159,F,,7093,West New York,0,N,Y,D,Y,Y,,,,1,0,24-01-2020 10:30,08-02-2021 12:20,,377,A,Y,N,N,N,O,,,
+166,,,33487,Boca Raton,0,N,Y,D,N,Y,,,,2,0,21-02-2020 13:21,27-02-2020 13:18,,,A,Y,N,N,N,O,,,
+171,F,,11373,Elmhurst,0,N,Y,D,N,N,N,,,2,0,10-06-2020 11:07,21-09-2022 13:38,,,P,Y,N,N,N,O,,,
+175,M,,10704,New York,0,Y,Y,B,Y,Y,Y,,,2,0,20-06-2020 15:19,08-12-2023 15:31,,,P,Y,N,N,N,O,,,
+178,F,,11741,Holbrook,0,N,Y,D,Y,Y,N,,,2,0,20-08-2020 12:05,27-01-2022 13:40,,,A,Y,N,N,N,O,,,
+184,F,,10016,New York,0,N,Y,D,Y,Y,N,,,2,0,28-10-2020 09:29,13-08-2022 08:16,,,A,N,N,N,N,O,,,
+185,M,,33133,Miami,0,N,Y,D,Y,Y,N,,,5,0,30-10-2020 10:18,27-01-2022 13:51,,,A,Y,N,N,N,O,,,
+202,F,,33127,miami,0,Y,N,B,N,N,N,,,1,0,03-03-2021 14:59,05-08-2021 10:16,,,A,Y,N,N,N,O,,,
+300,M,,10704,new york,0,Y,Y,D,Y,Y,N,,,1,0,09-04-2019 13:45,02-01-2025 08:46,,,A,N,N,N,N,O,,,
+301,M,,10704,new york,0,Y,Y,D,Y,Y,N,,,1,0,09-04-2019 13:45,19-04-2024 10:33,,,A,N,N,N,N,O,,,
