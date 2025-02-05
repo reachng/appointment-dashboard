@@ -10,4 +10,6 @@ urlpatterns = [
     path('export_user_state_count/', views.export_user_state_count, name='export_user_state_count'),
     path('appointment_analysis/', views.appointment_analysis, name='appointment_analysis'),
     path('registration_analysis/', views.registration_analysis, name='registration_analysis'),
+    path('groomer_analysis/', views.groomer_analysis, name='groomer_analysis'),
+
 ]

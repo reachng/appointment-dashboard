@@ -114,6 +114,9 @@ document.getElementById('export-btn').addEventListener('click', () => {
     window.location.href = url;
 });
 </script>
-
+<div id="g_id_chart_container">
+    <h2>G_ID Counts vs. Appointment (Based on Complaints)</h2>
+    {{ g_id_html|safe }}
+</div>
 
 {% endblock %}

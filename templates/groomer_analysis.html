@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <title>Groomer Analysis</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+        .date-picker {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .chart {
+            margin-top: 30px;
+        }
+    </style>
+
+
+    <div class="container">
+        <h1>Groomer Analysis</h1>
+        
+        <!-- Date Picker Form -->
+        <div class="date-picker">
+            <form method="get">
+                <label for="start_date"><strong>Start Date:</strong></label>
+                <input type="date" id="start_date" name="start_date" value="{{ start_date }}">
+                &nbsp;
+                <label for="end_date"><strong>End Date:</strong></label>
+                <input type="date" id="end_date" name="end_date" value="{{ end_date }}">
+                &nbsp;
+                <select id="city" name="city">
+                    <option value="">All Cities</option>
+                    {% for city in city_options %}
+                        <option value="{{ city }}" {% if city == selected_city %}selected{% endif %}>{{ city }}</option>
+                    {% endfor %}
+                </select>
+                <button type="submit">Filter</button>
+            </form>
+        </div>
+
+        <div class="chart">
+            <h2>Groomer Analysis</h2>
+            {{ location_chart_html|safe }}
+        </div>
+    </div>
+{% endblock %}

@@ -70,5 +70,10 @@
             <strong>Total Appointments:</strong> {{ metrics.total_appointments }} | 
             <strong>Total Customers:</strong> {{ metrics.total_customers }}
         </div>
+        <div>
+            <h2>Users Registered but No Booking</h2>
+            {{ no_booking_html|safe }}
+        </div>
+        
     </div>
 {% endblock %}

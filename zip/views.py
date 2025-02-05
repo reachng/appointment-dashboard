@@ -344,9 +344,32 @@ def user_status_analysis(request):
             ])
 
         return response
-        
-    return render(request, 'user_status_analysis.html', {"states": states})
+    
+    appointment['if_complain'] = appointment['if_complain'].astype(str)
 
+    # Aggregate appointment counts by G_ID and if_complain status
+    g_id_summary = (
+        appointment.groupby(['g_id', 'if_complain'])
+        .agg(appointment_count=('appointment_id', 'count'))
+        .reset_index()
+    )
+
+    # Create a bar chart
+    g_id_fig = px.bar(
+        g_id_summary,
+        x='g_id',
+        y='appointment_count',
+        color='if_complain',  # Differentiate bars based on complaint status
+        barmode='group',  # Group bars for better comparison
+        title="G_ID Counts vs. Appointment (Based on Complaints)",
+        labels={'g_id': 'G_ID', 'appointment_count': 'Appointment Count', 'if_complain': 'Complaint Status'},
+        color_discrete_map={'0': '#636EFA', '1': '#EF553B'}  # Example colors for No Complaint (0) & Complaint (1)
+    )
+
+    # Convert to HTML
+    g_id_html = pio.to_html(g_id_fig, full_html=False)
+
+    return render(request, 'user_status_analysis.html', {"states": states,"g_id_html":g_id_html})
 
 def total_final_summmary(request):
     # Load the appointment data without filtering by date
@@ -563,14 +586,108 @@ def registration_analysis(request):
         'total_appointments': total_appointments,
         'total_customers': total_customers
     }
+    users_with_appointments = set(appointment['user_id'].unique())
+    all_users = set(user['user_id'].unique())
+    users_without_appointments = all_users - users_with_appointments
+
+    # Create a DataFrame
+    no_booking_df = pd.DataFrame({'user_id': list(users_without_appointments)})
+    no_booking_df['count'] = 1  # Each user counts as 1
+
+    # Aggregate by registration year
+    no_booking_summary = (
+        user[user['user_id'].isin(no_booking_df['user_id'])]
+        .groupby(user['registered_date'].dt.year)
+        .agg(no_booking_count=('user_id', 'count'))
+        .reset_index()
+    )
+
+    # Create a bar chart with year on x-axis
+    no_booking_fig = px.bar(
+        no_booking_summary,
+        x='registered_date',  # Now this represents only the year
+        y='no_booking_count',
+        title="Users Registered but No Booking (by Year)",
+        labels={'registered_date': 'Year', 'no_booking_count': 'Users Without Booking'},
+        color_discrete_sequence=['#EF553B']
+    )
+
+    # Convert to HTML
+    no_booking_html = pio.to_html(no_booking_fig, full_html=False)
 
     # Render HTML template with graphs and metrics
     context = {
         'histogram_html': histogram_html,
         'avg_days_html': avg_days_html,
         'gap_html': gap_html,
+        'no_booking_html':no_booking_html,
         'metrics': metrics,
         'quarters': appointment['registered_date'].dt.to_period('Q').unique(),
         'selected_quarter': selected_quarter
     }
     return render(request, 'registration_analysis.html',context)
+
+def groomer_analysis(request):
+    # Load g.csv
+    g_df = pd.read_csv(
+        r'C:\Users\Admin\Desktop\zip_codes\zip\data\g.csv',
+        low_memory=False
+    )  # Replace with the actual path to your CSV file
+    print(g_df.columns)
+
+    start_date = request.GET.get('start_date')
+    end_date = request.GET.get('end_date')
+    city_filter = request.GET.get('city')  # Get selected city from the request
+
+    # Convert date columns to datetime format if needed
+    if 'cdate' in g_df.columns:
+        g_df['cdate'] = pd.to_datetime(g_df['cdate'], errors='coerce')
+
+    # If filtering by date is required
+    if start_date and end_date:
+        g_df = g_df[
+            (g_df['cdate'] >= pd.to_datetime(start_date)) &
+            (g_df['cdate'] <= pd.to_datetime(end_date))
+        ]
+
+    # If filtering by city is required
+    if city_filter:
+        g_df = g_df[g_df['city'] == city_filter]
+
+    # Group by city and count users
+    location_summary = g_df.groupby('city').size().reset_index(name='count')
+
+    # Create bar chart for User vs. Location
+    location_fig = px.bar(
+        location_summary,
+        x='city',
+        y='count',
+        title="User vs. Location",
+        labels={'city': 'City', 'count': 'Number of Users'},
+        color='count',
+        color_continuous_scale='Viridis'  # You can change the color scale here
+    )
+
+    # Adjust chart layout for better visibility
+    location_fig.update_layout(
+        xaxis_tickangle=45,  # Rotate x-axis labels to avoid overlap
+        margin={'l': 50, 'r': 50, 't': 50, 'b': 150},  # Adjust margins to make space
+        height=600,  # Specify chart height
+        width=1000  # Specify chart width
+    )
+
+    # Convert plotly figure to HTML for rendering
+    location_chart_html = pio.to_html(location_fig, full_html=False)
+
+    # Get list of cities for the filter dropdown
+    city_options = g_df['city'].unique()
+
+    # Render template
+    context = {
+        'location_chart_html': location_chart_html,
+        'start_date': start_date,
+        'end_date': end_date,
+        'city_options': city_options,  # Pass cities to the template for the dropdown
+        'selected_city': city_filter,  # Pass selected city
+    }
+    return render(request, 'groomer_analysis.html', context)
