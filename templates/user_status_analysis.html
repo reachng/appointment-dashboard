@@ -10,11 +10,11 @@
 
     <!-- Filters -->
     <div style="margin: 20px;">
-        <label for="state">Filter by State:</label>
-        <select id="state">
-            <option value="">All States</option>
-            {% for state in states %}
-            <option value="{{ state }}">{{ state }}</option>
+        <label for="county">Filter by county:</label>
+        <select id="county">
+            <option value="">All countys</option>
+            {% for county in countys %}
+            <option value="{{ county }}">{{ county }}</option>
             {% endfor %}
         </select>
 
@@ -61,7 +61,7 @@ let userStatusChart = new Chart(ctx, {
 
 // Function to update chart data
 function updateChart() {
-    const state = document.getElementById('state').value;
+    const county = document.getElementById('county').value;
     const userStatus = document.getElementById('user-status').value;
 
     fetch('', {
@@ -71,7 +71,7 @@ function updateChart() {
             'X-CSRFToken': '{{ csrf_token }}'  // Ensure CSRF token is sent
         },
         body: JSON.stringify({ 
-            state: state, 
+            county: county, 
             user_status: userStatus 
         })  // Send the selected filters as JSON
     })
@@ -89,7 +89,7 @@ function updateChart() {
 }
 
 // Listen for changes to the filters and update chart data
-document.getElementById('state').addEventListener('change', updateChart);
+document.getElementById('county').addEventListener('change', updateChart);
 document.getElementById('user-status').addEventListener('change', updateChart);
 
 // Initial chart load
@@ -98,13 +98,13 @@ updateChart();  // Trigger the initial chart update on page load
 <script>
 // Add event listener for export button
 document.getElementById('export-btn').addEventListener('click', () => {
-    const state = document.getElementById('state').value;
+    const county = document.getElementById('county').value;
     const userStatus = document.getElementById('user-status').value;
 
     let url = '/user_status_analysis/?export=true';
 
-    if (state) {
-        url += `&state=${state}`;
+    if (county) {
+        url += `&county=${county}`;
     }
     if (userStatus !== 'All') {
         url += `&user_status=${userStatus}`;
@@ -114,8 +114,89 @@ document.getElementById('export-btn').addEventListener('click', () => {
     window.location.href = url;
 });
 </script>
+<br>
+<br>
+<!-- Chart for Lost Users per County -->
+<div style="width: 80%; margin: auto;">
+    <canvas id="lostUsersCountyChart"></canvas>
+</div>
+
+<script>
+// Initialize Lost Users per County Chart
+const ctxCounty = document.getElementById('lostUsersCountyChart').getContext('2d');
+let lostUsersCountyChart = new Chart(ctxCounty, {
+    type: 'bar',
+    data: {
+        labels: [],  // Will be populated dynamically
+        datasets: [{
+            label: 'Lost User Count by County',
+            data: [],  // Will be populated dynamically
+            backgroundColor: 'rgba(255, 99, 132, 0.5)',
+            borderColor: 'rgba(255, 99, 132, 1)',
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
+});
+
+// Function to update the Lost Users per County chart
+function updateLostUsersCountyChart(lostCountyData) {
+    const labelsCounty = lostCountyData.map(item => item.county);
+    const countsCounty = lostCountyData.map(item => item.lost_user_count);
+
+    // Update the chart with the new data
+    lostUsersCountyChart.data.labels = labelsCounty;
+    lostUsersCountyChart.data.datasets[0].data = countsCounty;
+    lostUsersCountyChart.update();
+}
+
+// Add event listener for changes to the filters
+document.getElementById('county').addEventListener('change', updateChart);
+document.getElementById('user-status').addEventListener('change', updateChart);
+
+// Function to update both charts
+function updateChart() {
+    const county = document.getElementById('county').value;
+    const userStatus = document.getElementById('user-status').value;
+
+    fetch('', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'X-CSRFToken': '{{ csrf_token }}'  // Ensure CSRF token is sent
+        },
+        body: JSON.stringify({ 
+            county: county, 
+            user_status: userStatus 
+        })  // Send the selected filters as JSON
+    })
+    .then(response => response.json())
+    .then(data => {
+        const labels = data.chartData.map(item => item.status);
+        const counts = data.chartData.map(item => item.count);
+
+        // Update the User Status chart with the new data
+        userStatusChart.data.labels = labels;
+        userStatusChart.data.datasets[0].data = counts;
+        userStatusChart.update();
+
+        // Update the Lost Users per County chart
+        updateLostUsersCountyChart(data.lostUsersCountyData);
+    })
+    .catch(error => console.error('Error:', error));
+}
+
+// Initial chart load
+updateChart();
+</script>
+
 <div id="g_id_chart_container">
-    <h2>G_ID Counts vs. Appointment (Based on Complaints)</h2>
     {{ g_id_html|safe }}
 </div>
 

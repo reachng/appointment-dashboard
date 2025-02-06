@@ -23,23 +23,6 @@ def load_and_process_data(start_date=None, end_date=None):
     # Deduplicate based on 'appointment_id'
     appointment = appointment.drop_duplicates(subset=['appointment_id'])
 
-    # Print total revenue
-    print("Total revenue in raw CSV:", appointment['total_final'].sum())
-
-    # Status mapping
-    STATUS_MAPPING = {
-        'N': 'Not Assigned',
-        'D': 'Assigned',
-        'O': 'On-the-Way',
-        'W': 'In-Progress',
-        'C': 'Cancelled',
-        'S': 'Completed',
-        'F': 'Failure',
-        'R': 'Rejected',
-        'L': 'Rescheduled',
-        'P': 'Paid'
-    }
-
     # Convert date and numeric columns
     appointment['appointment_date'] = pd.to_datetime(appointment['cdate'], format='%d-%m-%Y %H:%M', errors='coerce')
     appointment['user_id'] = appointment['user_id'].astype(str)
@@ -273,7 +256,39 @@ def home(request):
 
 
 def user_status_analysis(request):
-    appointment,user_last_appointment,user, data_start_date, data_end_date = load_and_process_data()
+    # Load raw data
+    appointment = pd.read_csv(
+        r'C:\Users\Admin\Desktop\zip_codes\zip\data\appointment_list.csv',
+        low_memory=False
+    )
+
+    # Deduplicate based on 'appointment_id'
+    appointment = appointment.drop_duplicates(subset=['appointment_id'])
+    # Convert date and numeric columns
+    appointment['appointment_date'] = pd.to_datetime(appointment['cdate'], format='%d-%m-%Y %H:%M', errors='coerce')
+    appointment['user_id'] = appointment['user_id'].astype(str)
+    appointment['g_id'] = appointment['g_id'].astype(str)
+    appointment.fillna(0, inplace=True)
+    # Load additional datasets
+    user = pd.read_csv(r'C:\Users\Admin\Desktop\zip_codes\zip\data\user.csv', low_memory=False)
+    user['email'] = user.get('email', 'No Email')  # Ensure 'email' column exists
+    user['user_id'] = user['user_id'].astype(str)
+    user = user[['user_id', 'email']]
+    
+    user_visit_logs = pd.read_csv(r'C:\Users\Admin\Desktop\zip_codes\zip\data\user_address_mapping.csv', low_memory=False)
+    user_visit_logs['user_id'] = user_visit_logs['user_id'].astype(str)
+    user_visit_logs = user_visit_logs[['user_id', 'state', 'county']]
+    
+    # Merge appointment data with user and address
+    appointment = pd.merge(appointment, user_visit_logs, on='user_id', how='left')
+    appointment = pd.merge(appointment, user, on='user_id', how='left')
+    appointment['state'] = appointment['state'].fillna('Unknown')
+    appointment['email'] = appointment['email'].fillna('No Email')
+
+    # User classification logic
+    today = datetime.datetime.now()
+    user_last_appointment = appointment.groupby('user_id')['appointment_date'].max().reset_index()
+    user_last_appointment['days_since_last_appointment'] = (today - user_last_appointment['appointment_date']).dt.days
     def classify_user(days):
         if pd.isna(days):
             return 'No Appointments'
@@ -289,18 +304,34 @@ def user_status_analysis(request):
     user_last_appointment['status'] = user_last_appointment['days_since_last_appointment'].apply(classify_user)
     user_data = pd.merge(user_last_appointment, user, on='user_id', how='left')
 
+    # Filter Lost Users
+    lost_users = user_data[user_data['status'] == 'Lost']
+
+    # Remove duplicate user_id entries from user_visit_logs before merging
+    user_visit_logs_unique = user_visit_logs[['user_id', 'county']].drop_duplicates()
+
+    # Merge lost users with county data
+    lost_users_with_county = pd.merge(lost_users, user_visit_logs_unique, on='user_id', how='left')
+
+
+    # Count unique lost users per county
+    lost_users_count_per_county = lost_users_with_county.drop_duplicates(subset=['user_id', 'county'])
+    lost_users_count_per_county = lost_users_count_per_county['county'].value_counts().reset_index()
+    lost_users_count_per_county.columns = ['county', 'lost_user_count']
+
+
     # Handle chart data and filter logic on POST request
     if request.method == "POST":
         # Get the filters from the POST request body
         import json
         data = json.loads(request.body)
-        state = data.get("state")
+        county = data.get("county")
         user_status = data.get("user_status", "All")
 
         filtered_users = user_data.copy()
 
-        if state:
-            state_user_ids = appointment[appointment['state'] == state]['user_id']
+        if county:
+            state_user_ids = appointment[appointment['county'] == county]['user_id']
             filtered_users = filtered_users[filtered_users['user_id'].isin(state_user_ids)]
 
         if user_status != "All":
@@ -311,18 +342,19 @@ def user_status_analysis(request):
         status_counts.columns = ['status', 'count']
 
         # Return the data as JSON to update the chart
-        return JsonResponse({"chartData": status_counts.to_dict(orient='records')})
+        return JsonResponse({"chartData": status_counts.to_dict(orient='records'),
+                             "lostUsersCountyData": lost_users_count_per_county.to_dict(orient='records')})
 
     # Render the page with state options for the filter
-    states = appointment['state'].unique()
+    countys = appointment['county'].unique()
     if request.GET.get('export') == 'true':
-        state = request.GET.get("state", None)
+        county = request.GET.get("county", None)
         user_status = request.GET.get("user_status", "All")
 
         filtered_appointments = appointment.copy()
 
-        if state:
-            filtered_appointments = filtered_appointments[filtered_appointments['state'] == state]
+        if county:
+            filtered_appointments = filtered_appointments[filtered_appointments['county'] == county]
 
         if user_status != "All":
             user_ids = user_data[user_data['status'] == user_status]['user_id']
@@ -333,20 +365,17 @@ def user_status_analysis(request):
         response['Content-Disposition'] = 'attachment; filename="user_data.csv"'
 
         writer = csv.writer(response)
-        writer.writerow(['User ID', 'State', 'Status', 'Appointment Count'])
+        writer.writerow(['User ID', 'County', 'Status', 'Appointment Count'])
 
         for user_id, group in filtered_appointments.groupby('user_id'):
-            writer.writerow([
-                user_id,
-                group['state'].iloc[0],
-                group['status'].iloc[0],
-                len(group)
-            ])
+            writer.writerow([user_id,
+                             group['county'].iloc[0],
+                             group['status'].iloc[0],
+                             len(group)])
 
         return response
-    
-    appointment['if_complain'] = appointment['if_complain'].astype(str)
 
+    appointment['if_complain'] = appointment['if_complain'].astype(str)
     # Aggregate appointment counts by G_ID and if_complain status
     g_id_summary = (
         appointment.groupby(['g_id', 'if_complain'])
@@ -369,7 +398,10 @@ def user_status_analysis(request):
     # Convert to HTML
     g_id_html = pio.to_html(g_id_fig, full_html=False)
 
-    return render(request, 'user_status_analysis.html', {"states": states,"g_id_html":g_id_html})
+    return render(request, 'user_status_analysis.html', {
+        "countys": countys,
+        "lostUsersCountyData": lost_users_count_per_county,"g_id_html":g_id_html
+    })
 
 def total_final_summmary(request):
     # Load the appointment data without filtering by date
